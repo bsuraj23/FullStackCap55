@@ -1,0 +1,56 @@
+Name:Archana.S.Ajith
+Id:CAPG48LSRB347
+
+1)What is difference between constructor and function?
+Ans)Constructor is a block of code that initializes a newly created object. 
+Function is a group of statements that can be called at any point in the program using its name to perform a specific task.
+Constructor has the same name as class name.
+
+2)Who gives default constructor?
+Ans)The compiler automatically provides a no-argument, default constructor for any class without constructors.
+
+3)what are other responsibilities of jvm?
+Ans)JVM performs byte-code interpretation, garbage collection, exception handling, thread management, 
+initialization of variables, and type definition.
+The JVM has two primary functions: to allow Java programs to run on any device or operating system
+and to manage and optimize program memory.
+
+4)Is java call by reference or call by value?
+Ans)Java uses only call by value while passing reference variables as well. 
+It creates a copy of references and passes them as valuable to the methods
+
+5)Who is providing the extra functions is java and how to access a function?
+Ans)To access or to use a method, we need to call it. A function is called (or invoked, or executed) by providing the function name, 
+followed by the parameters being enclosed within parentheses.
+
+6)What happens if a final keyword is applied on class and function?
+Ans)If we initialize a variable with the final keyword, then we cannot modify its value.
+
+7)What happens if final keyword is applied on variable,class and method?
+Ans)If we declare a method as final, then it cannot be overridden by any subclasses. 
+And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+8)Why string is passed in main method?
+Ans)Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily. 
+There can be several parameters! Also, all the other datatypes can be easily converted from String!
+
+9)Why only jvm gives default constructor?
+Ans)The Java compiler provides a default constructor if you don't have any constructor in a class. 
+The method is not provided by the compiler in any case.
+
+10)Who provides extra functions in main method?
+Ans)It is a default signature which is predefined in the JVM. 
+It is called by JVM to execute a program line by line and end the execution after completion of this method
+
+11)Difference between java 8 and java7?
+Ans)Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation. 
+Java 8 brings the most anticipated feature for the programming language called Lambda Expressions, 
+a new language feature which allows users to code local functions as method arguments.
+
+12)When and why collections were added?
+Ans)Increases program speed and quality: The Collections Framework provides high-performance, high-quality implementations of useful data structures and algorithms. The various implementations of each interface are interchangeable, 
+so programs can be easily tuned by switching collection implementations.
+
+13)Difference between collection and collections?
+Ans)The Collection is an interface whereas Collections is a utility class in Java. The Set, List, and Queue are some of the subinterfaces of Collection interface, a Map interface is also part of the Collections Framework, but it doesn't inherit Collection interface. The important methods of Collection interface are add(), remove(), size(), clear() etc and
+ Collections class contains only static methods like sort(), min(), max(), fill(), copy(), reverse() etc.
