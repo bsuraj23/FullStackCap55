@@ -1,0 +1,96 @@
+What is a JVM?
+JVM-Java Virtual Machine
+jvm provides is a machine which enables a computer to run java code. jvm converts the code to byte code.
+
+How portability is solved in java?
+the portablity can be obtained using three types:
+CPU portability
+OS portability
+Source code portability
+a java code can be run on any computer which has JVM, JDK and JRE.
+
+Structure of JVM?
+classloader-loads all the required files used to run the code
+a)Bootstrap:loas all class files
+b)Extension:loads all the libraries for JRE
+c)System:loads class from classpath
+Memory allocation-memory is allocated to all the data variable. they are stored in following ways
+*class
+*heap
+*stack
+*PC Register
+*native method stack
+Execution Engine:now the execution process starts. it has two factors
+a)JIT-just in time compiler. compresses the code the reduces the time. makes the program time efficient
+b)garbage collector-deletes the unused objects. process of deallocating memory. important factor of memory management 
+c)interpreter-compiles the code line by line
+native method interface-it is a framework used to provide an interface to communicate with other apps.
+java native libraries
+
+how can we decompile the code?
+the class file cam be decompiled using command prompt. javap is the standard binary which comes with JDK installation and resides in JAVA_HOME/bin directory.
+
+Why is it important to initilize the local variable?
+because a local variable do not have any default value like instance and static variable.
+
+What is http tcp/ip protocol?
+http-hypertext transfer protocol is one of the member of tcp/ip protocol. it is used ti distribute, collaborate information systems. it also enables web browsers to view content.
+tcp/ip-it is a family of communication protocols used to connect computer system to a network.
+
+Difference between browsers?
+Chrome-developed by google.loads multiple tabs. connected to cloud.
+Internet Explorer-developed by microsoft
+safari-developed by Apple inc. very good support for lates technologies like XHTML,CSS.
+Opera-small and fast. fully featured. java and non java enabled versions are available.
+firefox-consumes less RAM
+
+how to install jvm?
+go to www.java.com
+click free download
+click agree and start download
+click run
+click install
+
+Examples of distributed systems?
+intenet
+network
+telecommunication network
+database systems
+mobile computing systems
+electronic banking
+reservation systems
+
+how can you stop redeclaration in java?
+using final keyword
+using static keyword
+
+Is “constant” or “cnst” keyword used in java?
+NO
+
+explain what happens in client server structure response when an URL is clicked?
+this can be understood using DNS model
+1)send a request to resolve by entering the url
+2)search the an IP locally. there is an local dns cache which stores the recent requests. the sent request is compared with the local cache. if the request is found then the response is sent and you are directed to the webpage.
+3)contact ISP recursive dns server. if the request is not resolved in local dns cache, then the request sent to internet service provider and its dn server. if found, the request is resolved.
+4)and if the ISP dns servers cannot resolve then, outside dns servers are requested. the request is been made on three factors.
+ex:www.oracle.com
+*root dns servers-searches based on .com/.org
+*TLD dns server- searches based on the domain name like oracle.com/java.com
+*authorative nameserver-provides websites ip address back to dns servers.
+5)receive the ip address and the web page of requested url is opened.
+
+what technologies are used in front end?
+javascript-knows for its dynamic capabilities
+html-used to design the webpage
+css-used to style the webpage and make it more efficient and attractive.
+react-is popular javascript libraries. used MVC architecture
+
+what technologies are used in back end?
+java
+python
+ruby
+PHP
+C#
+.NET
+C++
+Kotlin
