@@ -1,0 +1,114 @@
+1.What is a JVM?
+  JVM stands for Java Virtual Machine.
+  It also provides a machine that enables a computer to run java programs,jvm is also used to convert the codeto byte code.
+
+2.How portability is solved in java?
+  The portability can be obtained using three types..
+  CPU portability
+  OS portability
+  Source code portability
+  a java code can be run on any computer which has JVM,JDK and JRE
+
+3.Structure of JVM?
+ * Classloader-loads all the required files used to run the code
+   a)Bootstrap:loads all the class files
+   b)Extension:Loads all the libraries for JRE
+   c)System:Loads class from classpath
+ * Memory allocations-memory is allocated to all the data variable.
+   they are stored in the following ways
+   ->class
+   ->heap
+   ->stack
+   ->PC register
+   ->native method stack
+ * Execution Engine:Now the execution process starts.it has two factors
+   a)JIT-just in time compiler.compresses the code that reduces the time.makes the program time efficient
+   b)Garbage collector-deletes the unused objects.process of deallocating memory.important factor of memory management
+   c)interpret-compiles the code line by line
+   d)native method interface-it is a framework used to provide an interface to communicate with other apps.java native libraries
+4.How can we decompile the code?
+  The class file can be decompiled by using command prompt.javap is the standard binary which comes with JDK installation and resides in JAVA_HOME
+
+5.Why is it important to initialize the local variable?
+  Because the local variable do not have any default value like instance and static variable.
+
+6.What is http/ip protocol?
+  HTTP stands for HyperText Transfer Protocol.It is one of tcp/ip protocol,which is used to distribute,collaborate information system.
+
+7.Difference between browsers?
+  Chrome-developed by google.loads multiple tabs. connected to cloud.
+  Internet Explorer-developed by microsoft
+  safari-developed by Apple inc. very good support for lates technologies like XHTML,CSS.
+  Opera-small and fast. fully featured. java and non java enabled versions are available.
+  firefox-consumes less RAM
+
+8.Write a java program to display all the information details about pc configuration?
+  public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        String nameOS="os.name";
+        String versionsOS="os.version";
+        String architecture="os.arch";
+        System.out.println(System.getProperty(nameOS));
+        System.out.println(System.getProperty(versionsOS));
+        System.out.println(System.getProperty(architecture));
+    }
+}
+there are so many keys which gives information about the JVM, JRE.
+
+9.how to install jvm?
+  go to www.java.com
+  click free download
+  click agree and start download
+  click run
+  click install
+
+10.Examples of distributed systems?
+   intenet
+   network
+   telecommunication network
+   database systems
+   mobile computing systems
+   electronic banking
+   reservation systems
+
+11.how can you stop redeclaration in java?
+   using final keyword
+   using static keyword
+
+12.Is “constant” or “cnst” keyword used in java?
+   NO
+
+13.explain what happens in client server structure response when an URL is clicked?
+this can be understood using DNS model
+1)send a request to resolve by entering the url
+2)search the an IP locally. there is an local dns cache which stores the recent requests. the sent request is compared with the local cache. if the request is found then the response is sent and you are directed to the webpage.
+3)contact ISP recursive dns server. if the request is not resolved in local dns cache, then the request sent to internet service provider and its dn server. if found, the request is resolved.
+4)and if the ISP dns servers cannot resolve then, outside dns servers are requested. the request is been made on three factors.
+ex:www.oracle.com
+*root dns servers-searches based on .com/.org
+*TLD dns server- searches based on the domain name like oracle.com/java.com
+*authorative nameserver-provides websites ip address back to dns servers.
+5)receive the ip address and the web page of requested url is opened.
+
+14.Definition of compilation and interpretation?
+   interpretation is reading the code line by line,if any error is found you can't go further before correcting it.
+   compilation is reading and checking the whole code at once and reporting all errors found in it
+
+15.what technologies are used in front end?
+javascript-knows for its dynamic capabilities
+html-used to design the webpage
+css-used to style the webpage and make it more efficient and attractive.
+react-is popular javascript libraries. used MVC architecture
+
+16.what technologies are used in back end?
+java
+python
+ruby
+PHP
+C#
+.NET
+C++
+Kotlin
+ 
