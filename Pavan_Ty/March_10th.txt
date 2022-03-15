@@ -1,0 +1,45 @@
+Pavan Ty
+
+10th march
+---------------------------------------------------------------------------------------------------------------------
+Difference between jdk and jre
+JDK(Java Development Kit) is used to develop Java applications. JDK also contains numerous development tools like compilers, debuggers, etc.               
+It is mainly used for the execution of code and its main functionality is development. 
+-------
+JRE(Java Runtime Environment) is the implementation of JVM(Java Virtual Machine) and it is specially designed to execute Java programs.
+It is mainly used for creating an environment for code execution.
+
+---------------------------------------------------------------------------------------------------------------------
+How you can print user variables and system variables
+%PATH%
+---------------------------------------------------------------------------------------------------------------------
+Get all the commands and handson with all the commands
+
+ Ctrl + T for toggling between supertype and subtype
+
+ Go to other open editors: Ctrl + E.
+
+Hop back and forth through the files you have visited: Alt + ← and Alt + →, respectively.
+
+ Alt+Shift+X, Q to run Ant build file using keyboard shortcuts in Eclipse.
+
+CTRL+Shift+G, which searches the workspace for references to the selected method or variable
+
+ Ctrl+Shift+L to view the listing for all Eclipse keyboard shortcuts.
+
+ Alt + Shift + j to add Javadoc at any place in Java source file.
+
+ CTRL+SHIFT+P to find closing brace. Place the cursor at the opening brace and use this.
+
+sysout for System.out.println
+
+ctrl+s and ctrl+i to reformat the code ijn eclipse
+---------------------------------------------------------------------------------------------------------------------
+ASCII values and where it is used and why they are used
+
+ASCII, abbreviation of American Standard Code For Information Interchange, a standard data-transmission code that is
+ used by smaller and less-powerful computers to represent both textual data (letters, numbers, and punctuation marks) and noninput-device commands (control characters)
+
+
+
+

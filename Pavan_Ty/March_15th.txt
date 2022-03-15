@@ -1,0 +1,73 @@
+
+Pavan Ty
+
+15th march
+
+what is difference b/w constructor and fucntion in the class
+ Constructor is used to initialize an object whereas method is used to exhibits functionality of an object.
+Constructor does not return any value where the method may/may not return a value.
+In case constructor is not present, a default constructor is provided by java compiler. In the case of a method, no default method is provided.
+Constructor should be of the same name as that of class. Method name should not be of the same name as that of class.
+---------------------------------------------------------------------------------------------------------------------
+who gives default constructor
+jvm gives default constructor
+---------------------------------------------------------------------------------------------------------------------
+what are other responsibilities if jvm
+What the JVM is used for. The JVM has two primary functions: to allow Java programs to run on any device or operating system (known as the "Write once, run anywhere" principle), 
+and to manage and optimize program memory
+---------------------------------------------------------------------------------------------------------------------
+Is java call by reference or call by value
+Java uses only call by value while passing reference variables as well. It creates a copy of references and passes them as valuable to the methods.
+ As reference points to same address of object, creating a copy of reference is of no harm.
+---------------------------------------------------------------------------------------------------------------------
+
+what happens if final keyword is applied on variable,class and method?
+ If we initialize a variable with the final keyword, then we cannot modify its value.
+---------------------------------------------------------------------------------------------------------------------
+why string is passed in main method?
+: Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily.
+---------------------------------------------------------------------------------------------------------------------
+why only jvm gives default constructor?
+ because the default constructor is used to provode the default values and this is done by the java compiler. the java compiler is the part of jvm.
+---------------------------------------------------------------------------------------------------------------------
+who provides extra functions in main method??
+the packages and libraries present in jvm.
+---------------------------------------------------------------------------------------------------------------------
+difference b/w java 8 and java7
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation. 
+Java 8 brings the most anticipated feature for the programming language called Lambda Expressions,
+ a new language feature which allows users to code local functions as method arguments
+---------------------------------------------------------------------------------------------------------------------
+when and why collections were added
+
+Java Collection enables the user to perform various data manipulation operations like storing data, 
+searching, sorting, insertion, deletion, and updating of data on the group of elements
+---------------------------------------------------------------------------------------------------------------------
+difference b/w collection and collections
+Collection: Collection is a interface present in java.util.package. It is used to represent a group of individual objects as a single unit
+Collections: Collections is a utility class present in java.util.package. It defines several utility methods 
+like sorting and searching which is used to operate on collection. It has all static methods.
+---------------------------------------------------------------------------------------------------------------------
+why the output is showing false????
+Ans: as the return type is mentioned boolean, no matter what, the false will only be returned.
+
+---------------------------------------------------------------------------------------------------------------------
+What is the difference between c and java access specifiers?
+there is no access specifires in c whereas there are four access modifiers in java.
+---------------------------------------------------------------------------------------------------------------------
+which inheritance is not supported by java?
+Java doesn't allow multiple inheritance to avoid the ambiguity caused by it
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
