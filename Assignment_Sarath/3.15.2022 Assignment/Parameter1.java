@@ -1,5 +1,6 @@
 package marchfifteen;
  //with parameter but no return type
+
 public class Parameter1 {
     public static void main(String args[])
     {

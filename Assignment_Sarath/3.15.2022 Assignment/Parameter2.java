@@ -2,6 +2,8 @@ package marchfifteen;
 //with parameter and return type
 public class Parameter2 {
 	public static void main(String[] args) {
+
+
 		 int a = 4;
 	        int b = 5;
 	        
