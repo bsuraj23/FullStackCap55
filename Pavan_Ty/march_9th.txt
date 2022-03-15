@@ -1,0 +1,123 @@
+Pavan Ty
+9th March
+
+
+1)What is a jvm
+A Java virtual machine (JVM) is a virtual machine that enables a computer to run Java 
+programs as well as programs written in other languages that are also compiled to Java 
+bytecode
+
+---------------------------------------------------------------------------------------------------------------------
+2)How portability is solved in java
+Portability refers to the ability to run a program on different machines.
+Java solves this problem by providing a set of library functions (contained in Java-supplied libraries such as awt, util, and lang)
+ that talk to an imaginary OS and imaginary GUI
+Whenever the javacode is compiled, the compiler generates a byte code. Now, the Bytecodes that are generated are safe and can be run on any machine (portable) that has JVM.
+ Bytecode is the key that makes the Java language more secure and portable
+---------------------------------------------------------------------------------------------------------------------
+3)Understand structure of jvm
+Class Loader
+It loads, links, and initializes the class file (.class) when it refers to a class for the first time at runtime (not compile time).
+
+
+memory area
+The Java virtual machine memory area is a runtime area that is used for the execution of various programs involved during
+
+		
+executin engine
+xecution Engine executes the instructions in the bytecode line-by-line by reading the data assigned to above runtime data areas.
+---------------------------------------------------------------------------------------------------------------------
+4)How can we decompile the code
+the class file cam be decompiled using command prompt. javap is the standard binary which comes with JDK installation and resides in JAVA_HOME/bin directory
+---------------------------------------------------------------------------------------------------------------------
+Why it is important to initialise the global variable
+
+A global variable is one declared at the start of the code and is accessible to all parts of the program.
+ Since Java is object-oriented, everything is part of a class. The intent is to protect data from being changed.
+---------------------------------------------------------------------------------------------------------------------
+5)Why it is important to initialise the local variable
+Local variables must be initialized before use, as they don't have a default value and the compiler won't let us use an uninitialized value
+---------------------------------------------------------------------------------------------------------------------
+
+6)What is HTTP IP address?
+The http-ip-address command specifies the local IP address that the Interoperability Test Service over HTTP listens on
+
+---------------------------------------------------------------------------------------------------------------------
+7)Write a java program to display all the information details about ur pc configuration ?
+import java.util.Properties;
+
+public class DisplayApp {
+
+    public static void main(String[] args) {
+
+        Properties properties = System.getProperties();
+    
+        properties.forEach((k, v) -> System.out.println(k + ":" + v));
+
+    }
+
+}
+---------------------------------------------------------------------------------------------------------------------
+8)how to install jvm
+1.Go to www.java.com to get started.
+2. Select Java Download for Free.
+3. Click "I Agree" to begin the free download.
+4. Press the "Run" button.
+To finish the installation, click Install and then follow the on-screen prompts.
+---------------------------------------------------------------------------------------------------------------------
+
+9)Examples of distributed systems…
+telecommunication networks: telephone networks and cellular networks, ...
+network applications: World Wide Web and peer-to-peer networks, ...
+real-time process control: aircraft control systems, ...
+electronic banking
+reservation systems
+---------------------------------------------------------------------------------------------------------------------
+10)Definition of compilation and interpretation
+interpretation is reading or checking the code line by line and if any error is found you can't go further before correcting it. 
+whereas compilation is reading and checking the whole code at once and reporting all errors found in it.
+---------------------------------------------------------------------------------------------------------------------
+11)explain what happens in client server structure response when url is clicked simple way
+You enter a URL into a web browser. The browser looks up the IP address for the domain name via DNS. 
+The browser sends a HTTP request to the server. The server sends back a HTTP response The browser begins rendering the HTML
+---------------------------------------------------------------------------------------------------------------------
+12)explain what happens in client server structure response wen url is clicked
+1)A URL is entered into a web browser.
+2)The browser uses DNS to find the IP address for the domain name.
+3)A HTTP request is sent from the browser to the server.
+4)A HTTP response is returned by the server.
+5)The browser begins rendering the HTML
+6)Steps 3-5 are repeated as the browser sends requests for additional HTML objects (images, CSS, and JavaScript).
+7)The browser sends additional async queries as needed after the page has loaded.
+---------------------------------------------------------------------------------------------------------------------
+13)what technologies are used in front end
+HTML,CSS,Javascript,React,Flutter
+---------------------------------------------------------------------------------------------------------------------
+14)what technologies are used in backend
+
+Java,Python,PHP,node.js,c++
+
+
+---------------------------------------------------------------------------------------------------------------------
+15)	What is http tcp/ip protocol?
+http is a member of the tcp/ip protocol family. It's used to share and collaborate on data. It also allows content to be seen by web browsers.
+The tcp/ip-it protocol family is a set of communication protocols for connecting computer systems to a network.
+
+---------------------------------------------------------------------------------------------------------------------
+16)Difference between browsers?
+
+Google Chrome is a web browser that was created by Google. Multiple tabs are loaded. The cloud is connected.
+Microsoft created Internet Explorer.
+Apple Inc. developed Safari. Support for recent technologies such as XHTML and CSS is excellent.
+Small and quick opera. completely functional There are java and non-java versions available.
+Firefox uses less memory.
+---------------------------------------------------------------------------------------------------------------------
+
+17)how can you stop redeclaration in java?
+using final keyword
+using static keyword
+---------------------------------------------------------------------------------------------------------------------
+18)Is “constant” or “cnst” keyword used in java?
+NO
+
+

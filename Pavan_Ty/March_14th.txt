@@ -1,0 +1,117 @@
+Pavan Ty
+14th march
+---------------------------------------------------------------------------------------------------------------------
+What is Debugging?
+Debugging is the process of identifying and fixing any issues in the source code of a program
+
+---------------------------------------------------------------------------------------------------------------------
+What are the default packages present in java?
+Java compiler imports java. lang package internally by default
+---------------------------------------------------------------------------------------------------------------------
+Other than boolean can we use anything in if condition?
+if is a Java reserved word The condition must be a boolean expression
+---------------------------------------------------------------------------------------------------------------------
+Why break is imp in switch cas?
+
+you can use the break statement to end processing of a particular labeled statement within the switch statement
+Without break , the program continues to the next labeled statement, executing the statements until a break or the end of the statement is reached
+---------------------------------------------------------------------------------------------------------------------
+Understand the naming conventions?
+Class
+It should start with the uppercase letter.
+It should be a noun such as Color, Button, System, Thread, etc.
+public class Employee
+{
+//code snippet
+}
+
+-------------------------
+Method
+It should start with lowercase letter.
+It should be a verb such as main(), print(), println().
+class Employee
+{
+// method
+void draw()
+{
+//code snippet
+}
+}
+-------------------------
+interfacE
+
+It should start with the uppercase letter.
+It should be an adjective such as Runnable, Remote, ActionListener.
+interface Printable
+{
+//code snippet
+}
+--------------------------
+Package
+It should be a lowercase letter such as java, lang.
+If the name contains multiple words, it should be separated by dots (.) such as java.util, java.lang.
+//package
+package com.javatpoint;
+class Employee
+{
+//code snippet
+}
+---------------------------------------------------------------------------------------------------------------------
+Write add progrm using oops concept?
+
+
+public class AddNumbers {
+
+	public static void main(String[] args) {
+	AddNumbers addobj=new AddNumbers();
+	int c=addobj.addnum(5,4);
+	System.out.println(c);
+	}
+	
+	int  addnum(int a,int b) {
+		return a+b;
+	}
+
+}
+
+
+---------------------------------------------------------------------------------------------------------------------
+Understand diff between WAR,EAR,JAR file?
+JAR(Stnda for Java Archive)
+A JAR file is a file with Java classes, associated metadata,and resources such as text and images aggregated into one file
+WAR(Web Application Resource) A WAR file is a filethat is used to distribute a collection of JAR files, JSP, Servlet, XML files,
+ static web pages like HTML and other resources that constitute a web  application
+
+---------------------------------------------------------------------------------------------------------------------
+
+Is java 100% Object oriented language?
+Java is not a pure object oriented language because it supports Primitive datatype such as int, byte, long?etc, to be used,
+ which are not objects
+
+---------------------------------------------------------------------------------------------------------------------
+
+Why github gives u free of cost to create new repository?
+as github now is owned by microsoft GitHub makes money by offering premium subscription plans to teams and organizations as well as 
+a fee it generates when users purchase third-party apps on their platform.
+
+---------------------------------------------------------------------------------------------------------------------
+what is agile
+Agile is a all test-driven development, object-oriented design, and software architecture into a single, clean approach for building robust and highly scalable software systems
+---------------------------------------------------------------------------------------------------------------------
+what are the ticketing tools used in agile?
+Zendesk. Zendesk is arguably the most well-known customer support software available today
+Freshdesk. Freshdesk is a scalable solution for companies of any size
+Freshservice.
+ServiceDesk Plus. 
+JitBit
+LiveAgent
+Zoho Desk.
+Jira Service Desk.
+
+---------------------------------------------------------------------------------------------------------------------
+
+How many version control tools are there?
+GitHub,Git,GitLab,Apache Subversion (SVN),CVS,Mercurial,Monotone,Bitbucket Server,Team Foundation Server (TFS),Bazaar
+---------------------------------------------------------------------------------------------------------------------
+what is scrum call?
+The Scrum team reviews what happened during the sprint to determine what worked, what didn't work, and how they can improve the process during the next sprint.
