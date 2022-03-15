@@ -1,0 +1,161 @@
+Sabah Khanam MS
+CAPG49LSRB455
+Assignment 1- March 9th
+
+
+1.What is a JVM?
+JVM-Java Virtual Machine
+jvm provides is a machine which enables a computer to run java code. jvm converts the code to byte code. JVM is a virtual machine which executes the program written to the bytecode and run on any computer.
+
+2.How portability is solved in java?
+the portablity can be obtained using three types:
+•	CPU portability
+•	OS portability
+•	Source code portability
+a java code can be run on any computer which has JVM, JDK and JRE.
+
+3. Structure of JVM.
+classloader-loads all the required files used to run the code
+a)Bootstrap:load s all class files
+b)Extension:loads all the libraries for JRE
+c)System:loads class from classpath
+Memory allocation-memory is allocated to all the data variable. they are stored in following ways
+*class
+*heap
+*stack
+*PC Register
+*native method stack
+Execution Engine:now the execution process starts. it has two factors
+a)JIT-just in time compiler. compresses the code the reduces the time. makes the program time efficient
+b)garbage collector-deletes the unused objects. process of deallocating memory. important factor of memory management 
+c)interpreter-compiles the code line by line
+native method interface-it is a framework used to provide an interface to communicate with other apps.
+java native libraries
+
+4.How can we decompile the code?
+The class file can be decompiled using command prompt. javap is the standard binary which comes with JDK installation and resides in JAVA_HOME/bin directory.
+
+5.Why is it important to initilize the local variable?
+because a local variable do not have any default value like instance and static variable.
+
+6.What is http tcp/ip protocol?
+http-hypertext transfer protocol is one of the member of tcp/ip protocol. it is used ti distribute, collaborate information systems. it also enables web browsers to view content.
+tcp/ip-it is a family of communication protocols used to connect computer system to a network.
+
+7.Difference between browsers?
+Chrome-developed by google.loads multiple tabs. connected to cloud.
+Internet Explorer-developed by microsoft
+safari-developed by Apple inc. very good support for lates technologies like XHTML,CSS.
+Opera-small and fast. fully featured. java and non java enabled versions are available.
+firefox-consumes less RAM
+
+8.Write a java program to display all the information details about pc configuration?
+package march9;
+
+public class main { 
+	public static void main(String[]args) {
+		String nameOS="os.name";
+		String architecture="os.architecture";
+		String version="os.version";
+		System.out.println(System.getProperty(nameOS));
+		System.out.println(System.getProperty(architecture));
+		System.out.println(System.getProperty(version));
+		
+		
+	}
+}
+there are so many keys which gives information about the JVM, JRE.
+
+9.How to install jvm?
+go to www.java.com
+click free download
+click agree and start download
+click run
+click install
+
+10.Examples of distributed systems?
+•	intenet
+•	network
+•	telecommunication network
+•	database systems
+•	mobile computing systems
+•	electronic banking
+•	reservation systems
+
+11.How can you stop redeclaration in java?
+using final keyword
+using static keyword
+
+12.Is “constant” or “cnst” keyword used in java?
+NO
+
+13. Explain what happens in client server structure response when an URL is clicked?
+This can be understood using DNS model
+1)send a request to resolve by entering the url
+2)search the an IP locally. there is an local dns cache which stores the recent requests. the sent request is compared with the local cache. if the request is found then the response is sent and you are directed to the webpage.
+3)contact ISP recursive dns server. if the request is not resolved in local dns cache, then the request sent to internet service provider and its dn server. if found, the request is resolved.
+4)and if the ISP dns servers cannot resolve then, outside dns servers are requested. the request is been made on three factors.
+ex:www.oracle.com
+*root dns servers-searches based on .com/.org
+*TLD dns server- searches based on the domain name like oracle.com/java.com
+*authorative nameserver-provides websites ip address back to dns servers.
+5)receive the ip address and the web page of requested url is opened.
+
+14. What technologies are used in front end?
+•	javascript-knows for its dynamic capabilities
+•	html-used to design the webpage
+•	css-used to style the webpage and make it more efficient and attractive.
+•	react-is popular javascript libraries. used MVC architecture
+
+15. what technologies are used in back end?
+•	java
+•	python
+•	ruby
+•	PHP
+•	C#
+•	.NET
+•	C++
+•	Kotlin
+
+
+Date 10-03-2022
+
+16. Difference between Jdk and Jre.
+JDK(Java Development Kit) is used to develop Java applications. JDK also contains numerous development tools like compilers, debuggers, etc. JRE(Java Runtime Environment) is the implementation of JVM(Java Virtual Machine)
+and it is specially designed to execute Java programs.
+
+17. How can u print user varaiables and System variables ?
+
+
+18. what is /n in in Java? how many types are there?
+
+\n Insert a newline in the text at this point.
+\r Insert a carriage return in the text at this point. 
+\f Insert a formfeed in the text at this point. 
+\' Insert a single quote character in the text at this point.
+
+
+19.When and why are ASCII values used for?
+ASCII, abbreviation of American Standard Code For Information Interchange, a standard data-transmission code that is used by smaller and less-powerful computers to represent both textual data (letters, numbers, and punctuation marks)
+and noninput-device commands (control characters).
+
+20.Shortcut keys in Eclipse.
+a) Ctrl + T for toggling between supertype and subtype
+
+b) Go to other open editors: Ctrl + E.
+
+c) Move to one problem (i.e.: error, warning) to the next (or previous) in a file: Ctrl +. For next, and Ctrl +, for the previous problem
+
+d) Hop back and forth through the files you have visited: Alt + ← and Alt + →, respectively.
+
+e) CTRL+Shift+G, which searches the workspace for references to the selected method or variable
+
+f) Ctrl+Shift+L to view the listing for all Eclipse keyboard shortcuts.
+
+g) Alt + Shift + j to add Javadoc at any place in Java source file.
+
+h) CTRL+SHIFT+P to find closing brace. Place the cursor at the opening brace and use this.
+
+i) Alt+Shift+X, Q to run Ant build file using keyboard shortcuts in Eclipse.
+
+j) Ctrl + Shift +F for Autoformatting.
