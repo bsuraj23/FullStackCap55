@@ -1,0 +1,83 @@
+package package1;
+// Java program to illustrate If statement
+class IfDemo {
+    public static void main(String  args[])
+    {
+           Sample2333  SampleObj23 = new Sample2333();
+      //  System.out.println(SampleObj23.add()  );
+       // System.out.println(SampleObj23.add(1,2)  );
+        System.out.println(SampleObj23.add("Ramana SAI")  );
+    }
+}
+
+class Sample2333
+{
+int a=90;
+byte b= 89;
+
+String name = "Rachana";
+//non praprmeter
+int add(){
+   //comment
+    String name = "sdfkgsdf";
+   int c= 23+23;
+   System.out.println("I am a non paramtereted and with rtetuurn value function");
+   return c ;
+}
+    int add(int a, int b){
+        //comment
+        int c= a+b;
+        System.out.println("I am parametered  nd with rtetuurn value function");
+        return c;
+    }
+    boolean add(String str){
+        //comment
+        System.out.println("Hellow " +str  +"can you hear me ?");
+        return false;
+    }
+}
+
+Questions :
+
+1.why the output is showing false?
+
+ans. Here the mentioned return type is Boolean.Which is why the output False is only returned .
+
+2.Difference between constructor and method?
+
+ans. Constructor :
+     Constructor does not return any value .
+     Constructor is used to initialize an object.
+     In case constructor is not present, a default constructor is provided by java compiler.
+     Constructor should be of the same name as that of class.
+     Method:
+     Method may/may not return a value.
+     Method may/may not return a value.
+     No default method is provided.
+     Method name should not be of the same name as that of class.
+
+3.what are the other roles of jvm?
+      
+ans.The role of JVM is To permit Java programs to run on operating systems and any device.To manage and enhance program memory.
+
+4. who gives default constructor?
+ans. Jvm gives defaut constructor,The default constructor is used to provode the default values and this is done by the java compiler.
+
+5.What is the difference between c and java access specifiers?
+ans.There is no access specifires in c whereas there are 4 access modifiers in java.
+
+6.who provides extra functions in main method?
+ans.Packages and Libraries.
+
+7.why string is passed in main method?
+ans.By passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily.
+
+8.what happens if final keyword is applied on variable,class and method?
+ans.If we initialize a variable with the final keyword, then we cannot modify its value.
+    If we declare a method as final, then it cannot be overridden by any subclasses. 
+    If we declare a class as final, we restrict the other classes to inherit or extend it.
+
+9.Is java call by reference or call by value? 
+ans.Java uses only call by value while passing reference variables as well. As reference points to same address of object, creating a copy of reference is of no harm.  
+
+
