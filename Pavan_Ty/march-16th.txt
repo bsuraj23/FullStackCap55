@@ -1,0 +1,76 @@
+Pavan Ty
+16/3/22
+
+What is difference between comparable and comparator
+Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price
+ Comparable is present in java.lang package.
+The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+A Comparator is present in the java.util package.
+---------------------------------------------------------------------------------------------------------
+what are the underlying ds for linked list arraylist in java?
+ArrayList is a resizable array implementation in java.The backing data structure of ArrayList is an array of Object class.
+When creating an ArrayList you can provide initial capacity then the array is declared with the given capacity. The default capacity value is 10.
+
+Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at the contiguous location, the elements are linked using pointers as 
+In Java, LinkedList can be represented as a class and a Node as a separate class
+---------------------------------------------------------------------------------------------------------
+is arrayindexoutof bound and indexoutofbound same?
+IndexOutOfBoundsException is the super class of ArrayIndexOutOfBoundsException (thrown when accessing invalid index in a array) and 
+StringIndexOutOfBoundsException (thrown when accessing invalid index in a String).
+---------------------------------------------------------------------------------------------------------
+predefined functions in collections
+addAll()-	It is used to adds all of the specified elements to the specified collection.
+binarySearch()-It searches the list for the specified object and returns their position in a sorted list.
+checkedList()-It is used to returns a dynamically typesafe view of the specified list.
+checkedMap()-It is used to returns a dynamically typesafe view of the specified map.
+copy()-	It is used to copy all the elements from one list into another list.
+max()-	It is used to get the maximum value of the given collection,
+---------------------------------------------------------------------------------------------------------
+what are the advantages and disadvatages of array list?
+
+Advantages:
+
+ArrayList is variable length.
+Add any type of data into ArrayList.
+Traverse in both directions.
+Insert and remove elements also at particular position of ArrayList.
+ArrayList allows multiple null values.
+ArrayList allows to add duplicate elements.
+ArrayList has many methods to manipulate stored objects.
+When ArrayList exceeds its capacity, then its size increases by 50%.
+Retrieval is faster in ArrayList
+
+Disadvantages:
+If a data entry is added to or removed from an array-based list,
+ data needs to be shifted to update the list.
+
+---------------------------------------------------------------------------------------------------------
+what are the 10 owasp?
+Security Misconfiguration
+Cross-Site Scripting (XSS)
+Injection
+Broken Authentication
+XML External Entities (XXE)
+Broken Access Control
+Sensitive Data Exposure
+Insecure Deserialization.
+---------------------------------------------------------------------------------------------------------
+what are iterators and cursors
+
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. 
+A Java Cursor is an Iterator, which is used to iterate or traverse or retrieve a Collection or Stream object’s elements one by one
+---------------------------------------------------------------------------------------------------------
+can catch be return without try in java?
+Yes, we can have try without catch block by using finally block. You can use try with finally.
+ As you know finally block always executes even if you have exception or return statement in try block except in case of System.
+---------------------------------------------------------------------------------------------------------
+can try be return catch in java?
+Whenever try-block executes successfully, then it can always return value from end of method. 
+If any exception is raised from try-block then it get caught in the corresponding catch-block and catch-block can also return value
+---------------------------------------------------------------------------------------------------------
+Can we use finally without try catch in Java?
+A finally block must be associated with a try block, you cannot use finally without a try block. 
+You should place those statements in this block that must be executed always
+
+
+
