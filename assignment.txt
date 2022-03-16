@@ -82,4 +82,25 @@ and default methods.
 //function with parameter and without retunr type
 //function without parameter and with  retunr type
 
+12.difference betweeen enumerator and iterator?
+->Enumeration and Iterator In Java :
+Enumeration	                                          Iterator
+*Using Enumeration, you can only                 *Using Iterator, you can remove an element of
+traverse the collection. You can’t do            the collection while traversing it.
+any modifications to collection while
+traversing it.	
+*Enumeration is introduced in JDK 1.0	          *Iterator is introduced from JDK 1.2
+*Enumeration is used to traverse the             *Iterator is used to iterate most of the classes in 
+legacy classes like Vector, Stack                the collection framework like ArrayList, HashSet, HashMap, LinkedList etc.
+and HashTable.	
+*Methods : hasMoreElements() and nextElement()	 *Methods : hasNext(), next() and remove()
+*Enumeration is fail-safe in nature.	          *Iterator is fail-fast in nature.
+*Enumeration is not safe and secured 	          *Iterator is safer and secured than Enumeration.
+due to it’s fail-safe nature.
+
+13.->There Cannot be try Block Without Catch Block.
+   if There is a Try Block It compulsory to Have a Catch Block.
+   Finally Block is Optional to have or not.
+
+
 Enock Harris Suhas F
