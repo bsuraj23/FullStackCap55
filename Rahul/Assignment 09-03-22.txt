@@ -1,0 +1,65 @@
+1.	What Is Http Ip ?
+http-hypertext transfer protocol is one of the member of tcp/ip protocol. Which is used to distribute, collaborate information systems and enables web browsers to view content.
+tcp/ip-it is a family of communication protocols used to connect computer system to a network.
+
+2.	Write A Java Program To Display All The Information Details About Ur Pc Configuration ?
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        String nameOS="os.name";
+        String versionsOS="os.version";
+        String architecture="os.arch";
+        System.out.println(System.getProperty(nameOS));
+        System.out.println(System.getProperty(versionsOS));
+        System.out.println(System.getProperty(architecture));
+    }
+}
+
+3.	How To Install A Jvm ? 
+how to install jvm?
+go to www.java.com
+click free download
+click agree and start download
+click run
+click install
+
+4.	Examples Of Distributed Systems…
+Internet
+Network
+Telecommunication Network
+Database Systems
+Mobile Computing Systems
+Electronic Banking
+Reservation Systems
+
+5.	How Can Yu Stop Re-Declaration In Java ?
+using final keyword
+using static keyword
+
+6.	Is “Constant” Or “Cnst” Keyword Used In Java ?
+Yes, Final Keyword is used instead of constant
+
+7.	Definition Of Compilation And Interpretation
+Interpretation is reading or checking the code line by line and if any error is found you can't go further before correcting it. 
+Compilation is reading and checking the whole code at once and reporting all errors found in it.
+
+8.	Why Is It Important To Initialize A Local Variable
+In Java, class and instance variables assume a default value (null, 0, false) if they are not initialized manually. However, local variables don't have a default value. Unless a local variable has been assigned a value, the compiler will refuse to compile the code that reads it
+
+9.	Explain What Happens In Client Server Structure Response Wen Url Is Clicked
+When you click a link on a URL , the browser sends an HTTP Request to the server. This request includes a URL identifying the target server and resource
+
+10.	What Technologies Are Used In Front End
+HTML 
+CSS
+React
+Angular
+Flutter
+
+11.	What Technologies Are Used In Backend
+PHP
+Python
+C++
+Kotlin
+Scala
