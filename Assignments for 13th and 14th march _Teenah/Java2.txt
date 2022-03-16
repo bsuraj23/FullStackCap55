@@ -1,0 +1,19 @@
+
+public class Java2 {
+	public static void main(String[] args) {
+		 int a = 62;
+	        int b = 10;
+	        
+	 
+	        
+	        int result=calc(a, b);
+	        System.out.println(result);
+	}
+	        public static Integer calc(int x, int y)
+	        {
+	            int sum = x + y;
+	           return sum;
+	        }
+	
+
+}

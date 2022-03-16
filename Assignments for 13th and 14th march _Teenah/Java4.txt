@@ -1,0 +1,17 @@
+
+
+public class Java4 {
+	public static String wish()
+    {
+        return "Hi";
+      
+    }
+    public static void main(String args[])
+    {
+       
+       String greeting= wish();
+       System.out.println(greeting);
+       
+    
+}
+}
