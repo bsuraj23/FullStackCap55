@@ -8,7 +8,7 @@ public class ArrayLists {
     cars.add("cat");
     cars.add("dog");
     cars.add("rabbit");
-    cars.add("");
+    cars.add("eagle");
     System.out.println(cars);
   }
 }
