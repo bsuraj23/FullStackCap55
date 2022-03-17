@@ -1,0 +1,20 @@
+Name:Archana.S.Ajith
+CapgId:CAPG48LSRB347
+
+1.What is Debugging?
+Ans)Debugging means to run your code step by step in a debugging tool like Visual Studio, 
+to find the exact point where you made a programming mistake. 
+You then understand what corrections you need to make in your code, and debugging tools often allow you to make temporary changes so you can continue running the program.
+2.What are the default packages present in java?
+Ans)Java compiler imports java. lang package internally by default.
+3.Can we have an else condition without if condition?
+Ans)No, absolutely not!
+4.Other than boolean can we use anything in if condition?
+Ans)no
+5.Why break is important in switch case?
+Ans)If we do not use break statement at the end of each case, program will execute all consecutive case statements until 
+it finds next break statement or till the end of switch case block.
+6.Understand the naming conventions in java.
+Ans)Java follows camel-case syntax for naming the class, interface, method, and variable. 
+If the name is combined with two words, the second word will start with uppercase letter always such as actionPerformed(), 
+firstName, ActionEvent, ActionListener, etc.
