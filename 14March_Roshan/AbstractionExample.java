@@ -7,7 +7,7 @@ class Suzuki extends Car{
     }
 }
 class AbstractionExample {
-    public static void main(String args[]){
+    public static void main(String args[]){ 
            Car obj = new Suzuki();
            obj.accelerate();
     }
