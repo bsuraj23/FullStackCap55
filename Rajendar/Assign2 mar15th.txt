@@ -1,0 +1,17 @@
+package classobject;
+//function without parameters with return type
+
+public class ex2 {
+	public static void main(String[]args) {
+		ex obj=new ex();
+		System.out.println(obj.multiply());
+	}
+
+}
+class ex{
+	int multiply() {
+		int a=4;
+		int b=6;
+		return a*b;
+	}
+}

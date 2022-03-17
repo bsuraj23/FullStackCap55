@@ -1,0 +1,31 @@
+package classobject;
+//function with parameters an with return type
+
+public class example4 {
+	public static void main(String[] args) {
+		ex4 obj4=new ex4();
+		System.out.println(obj4.multiply(5, 6));
+		System.out.println(obj4.names("sai"));
+		
+
+	}
+
+}
+
+class ex4{
+	String nam="kumar";
+	
+	int multiply(int a,int b) {
+		
+		return a*b;
+		
+	}
+	
+	String names(String name) {
+		String n=name+nam;
+		return n;
+		
+	}
+	
+}
+
