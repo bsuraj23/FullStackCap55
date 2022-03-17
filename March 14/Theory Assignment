@@ -1,0 +1,26 @@
+14-03-2022
+
+1. What is Debugging?
+-> Debugging is the process of identifying and fixing any issues in the source code of a program.
+
+2. Naming conventions in Java?
+-> Class	- It should start with the uppercase letter.It should be a noun such as Color, Button, System, Thread, etc.
+-> Interface - It should start with the uppercase letter.It should be an adjective such as Runnable, Remote, ActionListener.
+-> Method - It should start with lowercase letter.It should be a verb such as main(), print(), println().
+   If the name contains multiple words, start it with a lowercase letter followed by an uppercase letter 
+   such as actionPerformed().
+-> Variable - It should start with a lowercase letter such as id, name.It should not start with the special characters 
+   like & (ampersand), $ (dollar), _ (underscore).
+-> Package - It should be a lowercase letter such as java, lang.
+   If the name contains multiple words, it should be separated by dots (.) such as java.util, java.lang.
+-> Constant - It should be in uppercase letters such as RED, YELLOW.
+   If the name contains multiple words, it should be separated by an underscore(_) such as MAX_PRIORITY.
+   It may contain digits but not as the first letter.
+
+3. Why break is used in switch case?
+-> The break statement is used inside the switch to terminate a statement sequence. When a break statement is reached, 
+   the switch terminates, and the flow of control jumps to the next line following the switch statement.
+
+4. Can we have an else condition without if condition?
+-> Else statements do not work unless they are associated with an if statement.
+
