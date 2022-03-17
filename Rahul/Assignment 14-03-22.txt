@@ -1,4 +1,3 @@
-
 1.What is Debugging?
 In computer programming and software development, debugging is the process of finding and resolving bugs within computer programs. To prevent incorrect operation of a software or system, 
 
@@ -208,9 +207,9 @@ class Dog extends polymorphism {
 	}
 
 	public static void main(String[] args) {
-		polymorphism myAnimal = new polymorphism(); // Create a Animal object
-		polymorphism myPig = new Pig(); // Create a Pig object
-		polymorphism myDog = new Dog(); // Create a Dog object
+		polymorphism myAnimal = new polymorphism();
+		polymorphism myPig = new Pig();
+		polymorphism myDog = new Dog(); 
 		myAnimal.animalSound();
 		myPig.animalSound();
 		myDog.animalSound();
