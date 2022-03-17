@@ -1,0 +1,143 @@
+09-03-2022
+ 
+ASSIGNMENT 1:
+1.What is JVM?
+    It is an Abstract method that loads,verifies and executes the bytecode,provides runtime environment in which java bytecode can be executed.
+2.How Portability is solved in java?
+    By providing the set of library functions(i.e lang,util,awt).
+3.Explain the Structure of JVM?
+    It contains of metadata,constant runtime pool,code for methods,objects,instance variables are stored in heap.
+    Memory is common and shared across multiple threads.
+4.How can we decompile the code?
+    By executing object code into higher level language.
+5.Why is it important to initialize the global variable?
+    Values must be known before execution starts otherwise it throws errors.
+
+
+ASSIGNMENT 2:
+1.What is http ip?
+   the local IP address that the Interoperability Test Service over HTTP listens on. When the value is 0.0. 0.0 , the service listens on all active IPv4            
+    addresses. When the value is , the service listens on all active IPv4 and IPv6 addresses.
+2.Difference between different browsers?
+   a.Internet Explorer:
+            Internet Explorer (IE) is a product from software giant Microsoft. This is the most commonly used browser in the universe. This was introduced 
+            1995 along with Windows 95 launch and it has passed Netscape popularity in 1998.
+          
+   b.Google Chrome:
+            This web browser is developed by Google and its beta version was first released on September 2, 2008 for Microsoft Windows. Today, chrome is 
+            known to be one of the most popular web browser with its global share of more than 50%.
+
+   c.Mozilla Firefox:
+             Firefox is a new browser derived from Mozilla. It was released in 2004 and has grown to be the second most popular browser on the Internet.
+
+   d.Safari:
+           Safari is a web browser developed by Apple Inc. and included in Mac OS X. It was first released as a public beta in January 2003. Safari has very
+           good support for latest technologies like XHTML, CSS2 etc.
+   e.Opera:
+           Opera is smaller and faster than most other browsers, yet it is full- featured. Fast, user-friendly, with keyboard interface, multiple windows,  
+           zoom functions, and more. Java and non Java-enabled versions available. 
+
+3.Write a java program to display all the information details about ur pc configuration ?
+   public class Main {
+  public static void main(String[] args) {
+    /* Total number of processors or cores available to the JVM */
+    System.out.println("Available processors (cores): " + 
+    Runtime.getRuntime().availableProcessors());
+    /* Total amount of free memory available to the JVM */
+    System.out.println("Free memory (bytes): " + 
+        Runtime.getRuntime().freeMemory());
+
+    /* This will return Long.MAX_VALUE if there is no preset limit */
+    long maxMemory = Runtime.getRuntime().maxMemory();
+    /* Maximum amount of memory the JVM will attempt to use */
+    System.out.println("Maximum memory (bytes): " + 
+        (maxMemory == Long.MAX_VALUE ? "no limit" : maxMemory));
+
+    /* Total memory currently available to the JVM */
+    System.out.println("Total memory available to JVM (bytes): " + 
+        Runtime.getRuntime().totalMemory());
+
+    /* Get a list of all filesystem roots on this system */
+    File[] roots = File.listRoots();
+
+    /* For each filesystem root, print some info */
+    for (File root : roots) {
+      System.out.println("File system root: " + root.getAbsolutePath());
+      System.out.println("Total space (bytes): " + root.getTotalSpace());
+      System.out.println("Free space (bytes): " + root.getFreeSpace());
+      System.out.println("Usable space (bytes): " + root.getUsableSpace());
+    }
+  }
+}
+
+4.How to install a jvm ? 
+      Go to www.java.com.
+      Click Free Java Download.
+      Click Agree and Start Free Download.
+      Click Run. Notes: If prompted by the User Account Control window, click Yes. ...
+      Click Install, and then follow the on-screen instructions to complete the installation.
+5.Explain Examples of distributed systems?
+     telecommunication networks: telephone networks and cellular networks, 
+      network applications: World Wide Web and peer-to-peer networks, 
+      real-time process control: aircraft control systems, 
+
+6.Is “constant” or “cnst” keyword used in java ?
+       Constants are basically variables whose value can't change. In C/C++, the keyword const is used to declare these constant variables. In Java, you use 
+       the keyword final .
+7.Understand OR2 framework or protocol ?
+       Framework in computer science is an abstraction in which a system providing generic functionality can be selectively changed by additional, purposely 
+       developed constituents, thus providing application-specific features and services. Protocols enable computers to be networked with one another 
+       and transfer (like OSI).
+8.Definition of compilation and interpretation?
+        interpretation is reading or checking the code line by line and if any error is found you can't go further before correcting it. whereas compilation 
+        is reading and checking the whole code at once and reporting all errors found in it.
+9.why is it important to initialize a local variable?
+        Local variables and primitives should be initialized before use because you would know what to expect from the values. Historically, when a new 
+        variable was created it would contain random values from the memory.
+10.explain what happens in client server structure response wen url is clicked?
+       this can be understood using DNS model
+       1)send a request to resolve by entering the url
+        2)search the an IP locally. there is an local dns cache which stores the recent requests. the sent request is compared with the local cache. if the     request is found then the response is sent and you are directed to the webpage.
+        3)contact ISP recursive dns server. if the request is not resolved in local dns cache, then the request sent to internet service provider and its dn server. if found, the request is resolved.
+       4)and if the ISP dns servers cannot resolve then, outside dns servers are requested. the request is been made on three factors.
+ex:www.oracle.com
+*root dns servers-searches based on .com/.org
+*TLD dns server- searches based on the domain name like oracle.com/java.com
+*authorative nameserver-provides websites ip address back to dns servers.
+        
+11.what technologies are used in front end?
+    a.JavaScript
+    b.Angular
+    c.React
+    d.HTML
+    e.CSS
+    f.Swift
+12.what technologies are used in backend?
+   a.Java
+   b.Python
+   c.PHP
+   d.Ruby
+   e..Net
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
