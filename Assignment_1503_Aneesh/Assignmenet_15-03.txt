@@ -1,0 +1,31 @@
+what is difference b/w constructor and fucntion in the class
+Constructor is used to initialize an object whereas method is used to exhibits functionality of an object.
+Constructors are invoked implicitly whereas methods are invoked explicitly.
+Constructor does not return any value where the method may/may not return a value.
+
+who gives default constructor?
+The Java compiler provides a default constructor if you don't have any constructor in a class. The method is not provided by the compiler in any case.
+
+Is java call by reference or call by value?
+Java uses only call by value while passing reference variables as well. It creates a copy of references and passes them as valuable to the methods.
+
+what happens if a final keyword is applied on class and function?
+If we initialize a variable with the final keyword, then we cannot modify its value. If we declare a method as final, then it cannot be overridden by any subclasses
+
+why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily. 
+
+difference b/w java 8 and java7?
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation. Java 8 brings the most anticipated feature for the programming 
+language called Lambda Expressions, a new language feature which allows users to code local functions as method arguments.
+
+when and why collections were added?
+Java Collection Framework enables the user to perform various data manipulation operations like storing data, searching, sorting, insertion, deletion, and updating of 
+data on the group of elements
+
+difference b/w collection and collections?
+The Collection is an interface that contains a static method since java8. The Interface can also contain abstract and default methods.
+Collections contains only static methods.
+
+why string is passed in main method?
+Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily.
