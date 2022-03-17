@@ -1,0 +1,102 @@
+Name:Thokachichu Nandhini
+     CAPG48LSRB308
+
+Why do we only have string arguments?
+Ans : because the command line only accepts the string...
+      because it does only allow String[] . Because everything you pass as argument to your program on the command line can be represented as a string. 
+      Not as doubles or integers.
+
+
+difference between constructor and method?
+Ans : Constructor is used to initialize an object whereas method is used to exhibits functionality of an object.
+
+      Constructors are invoked implicitly whereas methods are invoked explicitly.
+
+      Constructor does not return any value where the method may/may not return a value.
+
+      In case constructor is not present, a default constructor is provided by java compiler. In the case of a method, no default method is provided.
+
+      Constructor should be of the same name as that of class. Method name should not be of the same name as that of class.
+
+
+who gives default constructor? 
+Ans : java compiler... the java compiler is the part of jvm.
+
+what are the other roles of jvm?
+Ans : JVM --> Converts bytecode to machine-specific code.
+      JVM:: Java Virtual Machine, loads , verifies and executes Java bytecode. It is also known as Interpreter or the core of Java Programming languge
+      because it executes Java programming. JVM is necessary in both JDK & JRE. It can run programs in other languages also.
+      The JNI framework in the JVM enables the Java code running in JVM to communicate with applications associated with a piece of hardware
+      & specific os platform. The applications are called native applications and can be written in any languages.
+      JVM is specifically responsible for converting a bytecode to machine-specific code and is necessary in both JDK and JRE. 
+      It is platform depenent and performs many functions, including memory management and security.
+      JVM is foundation, heart of java programming language, and ensures the program's java source code will be platform-agnostic.
+      JVM is included in both JRE&JDK. 
+      
+
+
+What is the difference between c and java access specifiers?
+Ans : there is no access specifires in c  becuase it not object oriented programming whereas there are four access modifiers in java(public,private,default,protected).
+
+why only jvm gives default constructor?
+Ans : because the default constructor is used to provode the default values and this is done by the java compiler. the java compiler is the part of jvm.
+
+who provides extra functions in main method??
+Ans : To access or to use a method, we need to call it. A function is called (or invoked, or executed) by providing the function name, 
+      followed by the parameters being enclosed within parentheses.
+
+why string is passed in main method?
+Ans : Because everything you pass as argument to your program on the command line can be represented as a string. Not as doubles or integers.
+
+what happens if final keyword is applied on variable,class and method?
+Ans : If we declare a method as final, then it cannot be overridden by any subclasses. 
+      And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+What happens if a final keyword is applied on class and function?
+Ans :If we initialize a variable with the final keyword, then we cannot modify its value.
+
+
+Is java call by reference or call by value?
+Ans : There is only call by value in java, not call by reference. If we call a method passing a value, 
+      it is known as call by value. The changes being done in the called method, is not affected in the calling method
+
+what is difference b/w constructor and fucntion in the class
+Ans : Constructor is a block of code that initializes a newly created object. 
+      Function is a group of statements that can be called at any point in the program using its name to perform a specific task. 
+      Constructor has the same name as class name.
+
+difference b/w java 8 and java7
+Ans : Java 7 brings JVM support for dynamically-typed languages ​​plus Type Interference for Generic Instance creation. 
+      Java 8 brings the most anticipated feature for the programming language called Lambda Expressions, 
+      a new language feature which allows users to code local functions as method arguments.
+
+when and why collections were added
+Ans: Increases program speed and quality: The Collections Framework provides high-performance, high-quality implementations of useful data structures and algorithms. The various implementations of each interface are interchangeable, 
+     so programs can be easily tuned by switching collection implementations.Collections are used to store, retrieve, manipulate, and communicate aggregate data .
+
+difference b/w collection and collections
+Ans:The Set, List, and Queue are some of the subinterfaces of Collection interface, a Map interface is also part of the Collections Framework, but it doesn't inherit Collection interface. The important methods of Collection interface are add(), remove(), size(), clear() etc and
+    Collections class contains only static methods like sort(), min(), max(), fill(), copy(), reverse() etc.
+
+collection: 
+   1)it an interface 
+   2)it is used to represent a group of individual objects as a single unit.
+   3)The Collection is an interface that contains a static method since java8. The Interface can also contain abstract and default methods
+   
+   
+ collections: 
+    1)it an utility class
+    2)it defines several utility methods that are used to operate on collection.
+    3)it contains only static methods.
+
+What are functions in java?
+Ans : //function without  parameter and without retun type
+     //function without parameter and with retun type
+     //function with parameter and without retun type
+      //function without parameter and with  retun type
+
+    
+
+
+
+
