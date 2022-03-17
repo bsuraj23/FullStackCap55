@@ -1,3 +1,5 @@
+March-15
+
 1.what is difference b/w constructor and fucntion in the class?
 ->*Constructor is used to initialize an object whereasmethod is used to exhibits functionality of an object.
   *Constructors are invoked implicitly whereas methods are invoked explicitly.
@@ -82,6 +84,8 @@ and default methods.
 //function with parameter and without retunr type
 //function without parameter and with  retunr type
 
+March-16
+
 12.difference betweeen enumerator and iterator?
 ->Enumeration and Iterator In Java :
 Enumeration	                                          Iterator
@@ -101,6 +105,63 @@ due to it’s fail-safe nature.
 13.->There Cannot be try Block Without Catch Block.
    if There is a Try Block It compulsory to Have a Catch Block.
    Finally Block is Optional to have or not.
+
+14.what are the 10 owasp?
+->1. Broken Access Control
+2. Cryptographic Failures
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable and Outdated Components
+7. Identification and Authentication Failures
+8. Software and Data Integrity Failures
+9. Security Logging and Monitoring Failures
+10. Server-Side Request Forgery
+
+15.what are the underlying ds for linked list arraylist in java
+->LINEAR DATA STRUCTURE
+ArrayList is a resizable array implementation in java. The backing data structure of ArrayList is an array of Object class.
+In Java, the linked list class is an ordered collection that contains many objects of the same type. 
+Data in a Linked List is stored in a sequence of containers.
+
+16.what are the advantages and disadvatages of array list?
+->Advantages
+*ArrayLists can be appended dynamically: ArrayLists do not have to have a definite memory allocation like normal arrays when they are declared,
+ they can be appended upon runtime. This saves unnecessary memory usage by the program. 
+*The insertion and searching implementations of ArrayLists are stronger than normal arrays and provide more efficiency
+disAdvantages
+*A possible disadvantage of ArrayList is that it holds only object types and not primitive types (eg, int).
+
+17.diffarence b/w comparable and comparator in java?
+->Comparable	                                                  Comparator
+1) Comparable provides a single sorting sequence.              The Comparator provides multiple sorting sequences.
+ In other words, we can sort the collection on the             In other words, we can sort the collection on the basis of multiple elements such as id,
+ basis of a single element such as id, name, and price.	   name, and price etc.
+2) Comparable affects the original class, 	                  Comparator doesn't affect the original class, 
+ i.e., the actual class is modified.                           i.e., the actual class is not modified.
+3) Comparable provides compareTo() method to sort elements.	   Comparator provides compare() method to sort elements.
+4) Comparable is present in java.lang package.	             A Comparator is present in the java.util package.
+5) We can sort the list elements of Comparable 	             We can sort the list elements of Comparator type by 
+   type by Collections.sort(List) method.                      Collections.sort(List, Comparator) method.
+
+MARCH-14
+
+18.What is Debugging?
+->ebugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code 
+that can cause it to behave unexpectedly or crash.
+
+19.What are the default packages present in java?
+->Java compiler imports java. lang package internally by default. It provides the fundamental classes that are necessary to design a basic Java program.
+
+20.Can we have an else condition without if condition?
+->NO
+
+21.Other than boolean can we use anything in if condition?
+->NO
+
+22.why break is imp in switch case?
+->To get break from the particular case if its satisfied the condition.
+This means that the break is necessary to avoid passing through to the code under the next label.
 
 
 Enock Harris Suhas F
