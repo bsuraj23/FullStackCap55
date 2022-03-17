@@ -1,0 +1,15 @@
+theory questions
+1.What is Debugging?
+  Debugging is the process of identifying and removing errors from computer hardware or software.
+2.What are the default packages present in java?
+ java.lang is the default package in java.It is used to run the program
+  
+3.Can we have an else condition without if condition?
+  Yes, an else statement can exist without an if statement if its the first line inside the main ().
+4.Other than boolean can we use anything in if condition?
+No other than boolean we cant use anything in if condition
+5.why break is imp in switch case?
+without the break statement it will execute the statements in the switch which are not necessary.so we use break statement
+
+
+
