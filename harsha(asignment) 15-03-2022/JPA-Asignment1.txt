@@ -1,0 +1,63 @@
+1)What is JDK and SDK?
+JDK stands for the Java development kit and is described as a software development environment used to develop java applications. Java language usually uses JVM, JRE and JDK to work
+
+SDK a set of software tools and programs used by developers to create applications for specific platforms. SDK tools will include a range of things, including libraries, documentation, code samples, processes, and guides that developers can use and integrate into their own apps
+
+2) What is runtime error and compile error?
+
+Run time  errors occur during the run-time program execution after a successful compilation. Division error is one of the most common errors (runtime). It occurs due to the division by zero. It is very difficult for a compiler to find out a runtime error because it cannot point out the exact line at which this particular error occurs.
+
+Compile time errors occur when we violate the rules present in a syntax. The compile-time error indicates something that we need to fix before compiling the code. A compiler can easily detect these errors. It is the reason why we call them compile-time errors.
+
+3)What is time and space complexity?
+
+Time complexity:-
+Time complexity is a type of computational complexity that describes the time required to execute an algorithm. The time complexity of an algorithm is the amount of time it takes for each statement to complete. As a result, it is highly dependent on the size of the processed data. It also aids in defining an algorithm's effectiveness and evaluating its performance.
+
+Space complexity:-
+When an algorithm is run on a computer, it necessitates a certain amount of memory space. The amount of memory used by a program to execute it is represented by its space complexity. Because a program requires memory to store input data and temporal values while running, the space complexity is auxiliary and input space.
+
+4)Different Tools to compile java code?
+•	Netbeans 
+•	Junit
+•	Apache Maven:
+•	JRat:
+•	VisualVM
+
+5)What is Quick sort and merge sort?
+
+Merge sort is an external algorithm that also prefers the ‘divide and conquer technique’. It divides the array into two parts. It sorts the array separately and merges them concurrently to construct the sorted array.
+
+Quicksort is an internal and comparison-based algorithm that pursues the divide and conquer strategy to sort the arrays. It is also known as partition exchange sort. In quick sort, we mostly prefer a pivot (key) for resembling and partitioning the components in the array.
+
+6)What are the datatypes in java?
+•	boolean data type
+•	byte data type
+•	char data type
+•	short data type
+•	int data type
+•	long data type
+•	float data type
+•	double data type
+7) what is a Portability ? How java can able to do it ?
+The programs written in Java are portable i.e. programs written for one type of computer or operating system can be run on another type of computer or operating system.
+Java code can execute on all major platforms. What's more, once you've compiled your Java source to "byte-code" .class, those files can be used on any Java-supported platform without modification, unlike many other languages, which require compiling "machine code" for each platform, e.g. a separate ".exe" for 32-bit vs 64-bit environments.
+
+8)What is a Open source and close Source?
+Closed source software is software that holds the source code safe and encrypted. Meaning, the user can’t copy, modify, or delete parts of the code without some type of consequence. It can go from voiding the warranty to even legal repercussions.
+Open source software is software that does the complete opposite. It allows users to copy, modify, or delete parts of the code under their own discretion. The user is able to use functions of the open source on their own program with no consequence.
+
+9)What is a Global and local Variable?
+
+Local Variable is defined as a type of variable declared within programming block or subroutines. It can only be used inside the subroutine or code block in which it is declared. The local variable exists until the block of the function is under execution. After that, it will be destroyed automatically.
+
+A Global Variable in the program is a variable defined outside the subroutine or function. It has a global scope means it holds its value throughout the lifetime of the program. Hence, it can be accessed throughout the program by any function defined within the program, unless it is shadowed.
+ 
+10)Can we Build a OS with the help of java?
+Yes, Someone has done that before. However, If you want people to actually use your OS don't use java. It not only will take much, much longer but it will also not be as good as an OS made from another coding language.
+
+11)What is JVM ?
+JVM is a engine that provides runtime environment to drive the Java Code or applications. It converts Java bytecode into machines language
+
+
+
