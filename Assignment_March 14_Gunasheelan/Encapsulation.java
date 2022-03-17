@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class Encapsulation {
+public class Student {
 	private String name;  
 	//getter method for name  
 	public String getName(){  
