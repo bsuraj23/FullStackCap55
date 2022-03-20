@@ -1,0 +1,89 @@
+9th March
+
+1)Difference between SDK and JDK
+SDK
+•	Software development kit.
+
+•	It is a set of software or development tools used to create an application or a program on any platform.
+
+•	Tools consists Libraries, sample code, supporting documentation etc.
+
+•	Types are Android SDK, iOS SDK, java SDK, etc.
+
+JDK
+•	Java development kit.
+
+•	It is a set of development tools that allows a programmer to write a program using java language.
+•	Tools consists of the programming tool’s selection components
+
+•	Types are Java 8, Java 11, etc.
+          
+2) Difference between 3 tools eclipse/junit/IntelliJ
+    The main difference between Eclipse and IntelliJ is that by the usage of the plugin eclipse is faster and easier to extend whereas IntelliJ offers few plugins when compared to eclipse and it is also hard to extend the IDE using the plugin’s support.
+      Eclipse is extensively used in creating applications using JAVA and also C.C++, Python, PERL, Ruby. IntelliJ is primarily used for any advancement in the projects and widely used in JAVA environments.
+
+3)Get to know commands for windows
+Access System Configuration — “msconfig”
+Open System Information — “msinfo32”
+Access Backup and Restore window — “sdclt”
+Access mouse properties — “main.cpl”
+Open Windows Registry — “regedit”
+Access System Properties — “sysdm.cpl”
+Manage Windows Power options — “powercfg.cpl”
+Open Windows Features — “optionalfeatures”
+Open Magnifier — “magnify”
+Open Character Map app — “charmap”
+Access Network Connections — “ncpa.cpl”
+
+4) Get shortcut keys of your javatool
+
+       Ctrl + Shift + T for finding class even from jar
+        Ctrl + Shift + R for finding any resource (file), including config XML files
+    Ctrl + 1 for quick fix
+          Ctrl + Shift + o for organize imports
+
+5)What are ascii values
+ASCII is a 7-bit character set containing 128 characters. It contains the numbers from 0-9, the upper and lower case English letters from A to Z, and some special characters. The character sets used in modern computers, in HTML, and on the Internet, are all based on ASCII.
+
+6) What is difference b/w constructor and function in the class
+Constructor Function: A constructor’s name is the same as the class’s name, however a member function’s name can be anything
+Member Function: A function Object() is called automatically when an object is created, while a member function must be called explicitly.
+
+7) who gives default constructor
+The compiler automatically provides a no-argument, default constructor for any class without constructors. This default constructor will call the no-argument constructor of the superclass
+
+8) what are other responsibilities of JVM
+The JVM has two primary functions: to allow Java programs to run on any device or operating system and to manage and optimize program memory
+
+9) Is java call by reference or call by value
+Java always passes arguments by value, not by reference.
+
+10) who is providing the extra functions is java?
+The library functions and build in packages
+
+11)What happens if a final keyword is applied on class, method, variable?
+if we declare a class as final, we restrict the other classes to inherit or extend it.
+If we declare method as final, then it cannot be overridden by any subclasses.
+If we initialize a variable with the final keyword, then we cannot modify its value
+
+12) why string is passed in main method?
+We pass string in main method because we can pass all the necessary parameters
+
+13) difference b/w java 8 and java7?
+Java 7 brings JVM support for dynamically-typed languages plus Type Interference for Generic Instance creation. Java 8 brings the most anticipated feature for the programming language called Lambda Expressions, a new language feature which allows users to code local functions as method arguments.
+
+14) why collections were added?
+Java Collection Framework enables the user to perform various data manipulation operations like storing data, searching, sorting, insertion, deletion, and updating of data on the group of elements.
+
+
+15) difference b/w collection and collections
+Collection: It is an interface in Java collection framework and doesn't have all static methods 
+Collections: It is a utility class in collection framework and has all static methods
+
+16) What is Debugging?
+Debugging is the process of detecting and removing of existing and potential errors in a software code that can cause it to behave unexpectedly or crash
+
+17) What are the default packages present in java?
+Java compiler imports java. lang package internally by default
+
+
