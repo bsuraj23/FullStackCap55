@@ -1,0 +1,88 @@
+1.What is Debugging?
+Debugging is the process of identifying and fixing any issues in the source code of a program. 
+Modern IDEs like Eclipse provide debugging tools that make it easier for developers to walk through their code interactively and inspect it to spot and resolve any issues.
+
+2.What are the default packages present in java?
+java.lang package
+
+
+3.Can we have an else condition without if condition?
+This error means that Java is unable to find an if statement associated to your else statement.
+Else statements do not work unless they are associated with an if statement.
+
+
+4.why break is important in switch case?
+The case statements in a switch statements are simply labels. 
+When you switch on a value, the switch statement essentially does a goto to the label with the matching value.
+This means that the break is necessary to avoid passing through to the code under the next label.
+
+
+5.Understand the naming conventions in java.
+Class :-
+It should start with the uppercase letter.
+It should be a noun such as Color, Button, System, Thread, etc.
+Use appropriate words, instead of acronyms.
+Example :
+public class Employee
+{
+//code snippet
+}
+
+Interface :-
+It should start with the uppercase letter.
+It should be an adjective such as Runnable, Remote, ActionListener.
+Use appropriate words, instead of acronyms.	
+Example :
+interface Printable
+{
+//code snippet
+}
+
+Method :-
+It should start with lowercase letter.
+It should be a verb such as main(), print(), println().
+If the name contains multiple words, start it with a lowercase letter followed by an uppercase letter such as actionPerformed().	
+Example :
+class Employee
+{
+// method
+void draw()
+{
+//code snippet
+}
+}
+
+Variable:-
+It should start with a lowercase letter such as id, name.
+It should not start with the special characters like & (ampersand), $ (dollar), _ (underscore).
+If the name contains multiple words, start it with the lowercase letter followed by an uppercase letter such as firstName, lastName.
+Avoid using one-character variables such as x, y, z.	
+Example :
+class Employee
+{
+// variable
+int id;
+//code snippet
+}
+
+Package :-
+It should be a lowercase letter such as java, lang.
+If the name contains multiple words, it should be separated by dots (.) such as java.util, java.lang.
+Example :
+package com.javatpoint;
+class Employee
+{
+//code snippet
+}
+
+Constant :-	
+It should be in uppercase letters such as RED, YELLOW.
+If the name contains multiple words, it should be separated by an underscore(_) such as MAX_PRIORITY.
+It may contain digits but not as the first letter.	
+Example :
+class Employee
+{
+//constant
+static final int MIN_AGE = 18;
+//code snippet
+}
