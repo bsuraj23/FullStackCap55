@@ -1,0 +1,142 @@
+Q. If the exception is not in arithmetic exception then how to catch that exception?
+You can catch different exceptions in different catch blocks.
+For example if an arithmetic exception occurs in try block then the statements
+enclosed in catch block for arithmetic exception executes.
+
+
+Q. What languages do u need to learn as a Android developer? 
+Java - It is an official language of Android development and it is supported by Android Studio
+
+
+Q. what is cloud ? 
+what is cloud from a w s? what is cloud from Microsoft?
+The cloud refers to servers that are accessed over the Internet, and the software and databases that run on those servers.
+AWS provides VPC, i.e., Virtual private cloud which helps the user to create separated networks inside the cloud, whereas Azure provides Virtual network, which can be utilized to build isolated networks, subnets, route tables, private IP address range similar to AWS.
+
+
+Q. what is html ,css, js?
+HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.
+CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. 
+JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+
+
+Q. write a program on hello world in html
+<html>
+<header><title>This is title</title></header>
+<body>
+Hello World
+</body>
+</html>
+
+
+Q. Difference btw java and js
+Java is a strongly typed language and variables must be declared first to use in the program. In Java, the type of a variable is checked at compile-time.
+JavaScript is a weakly typed language and has a more relaxed syntax and rules.
+
+Java is an object-oriented programming language.
+JavaScript is an object-based scripting language.
+
+Java applications can run in any virtual machine(JVM) or browser.
+JavaScript code used to run only in the browser, but now it can run on the server via Node.js.
+
+Java program has the file extension “.Java” and translates source code into bytecodes which are executed by JVM(Java Virtual Machine).
+JavaScript file has the file extension “.js” and it is interpreted but not compiled, every browser has the Javascript interpreter to execute JS code.
+
+Java is a Standalone language
+JavaScript is contained within a web page and integrates with its HTML content.
+
+
+
+Q.What is react and angular ? 
+Angular is a Javascript framework built using Typescript
+While Reactjs is a Javascript library and built using JSX.
+
+
+
+Q. what are the keywords used for...class to class and class to interface and interface to interface?
+Keywords used for class to class are extends keyword
+keyword used for interface to interface we cannot implemets.
+class to interface implements
+
+
+Q. What is the default access for the variables and function define in Java 7?
+Default access modifier.
+
+
+Q. what are the informations present in header when you hit google.com
+So the first thing that happens is that your browser looks up in its cache to see if that website was visited before and the IP address is known.
+
+
+Q. what is cookie?  write a code to display all the cookies in your browser?
+Cookies are small files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, and can be accessed either by the web server or the client computer.
+This allows the server to deliver a page tailored to a particular user, or the page itself can contain some script which is aware of the data in the cookie and so is able to carry information from one visit to the website to the next.
+
+  
+
+Q. what is orm and hibernate?
+ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
+There are several persistent frameworks and ORM options in Java. A persistent framework is an ORM service that stores and retrieves objects into a relational database, Hibernate is one among them.
+
+
+
+Q. How many types of file format is there ?
+6 Different Types
+JPEG (Joint Photographic Experts Group)
+PNG (Portable Network Graphics) 
+GIF (Graphics Interchange Format)
+PDF (Portable Document Format)
+SVG (Scalable Vector Graphics)
+MP4 (Moving Picture Experts Group)
+
+
+Q.Example of rdbms and non rdbms?
+Example of rdbms : MySql, Oracle, Postgres and MS-SQL
+Example of non-rdbms:  MongoDB, BigTable, Redis,RavenDb, Cassandra, Hbase, Neo4j and CouchDb.
+
+
+Q. Does python has a support to db2?
+There are additional Python database interfaces which make use of existing JDBC or ODBC drivers which can be used to connect to Db2. 
+
+
+Q. Difference Between Linux OS and windows OS.
+Linux is an open source operating system whereas Windows OS is commercial. 
+Linux has access to source code and alters the code as per user need whereas Windows does not have access to the source code. 
+In Linux, the user has access to the source code of the kernel and alter the code according to his need.
+
+
+Q. Difference Between Spring frame work and spring boot?
+Spring framework is a java EE framework that is used to build applications.
+The primary or most important feature of the Spring framework is dependency 
+injection(Dependency Injection (DI) is a design technique that removes dependencies from 
+computer code, making the application easier to maintain and test).
+Its goal is to make Java EE (Enterprise Edition) development easier, allowing developers to be more productive.
+
+Spring Boot framework is mainly used to develop REST API’s
+The main or primary feature of the Spring Boot is Autoconfiguration( Simply described, Spring Boot
+ autoconfiguration is a method of automatically configuring a Spring application based on the 
+dependencies found on the classpath.)
+Autoconfiguration can speed up and simplify development by removing the need to define some beans 
+that are part of the auto-configuration classes.
+Spring Boot provides the RAD(Rapid Application Development) feature to the Spring framework for faster application development.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
