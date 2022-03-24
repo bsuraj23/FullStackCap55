@@ -1,0 +1,68 @@
+Assignment questions:                                                                                                                                         
+1)When you hit first time to website what data does request and response contain?                                         
+2)What are servlets and JSP's?    
+Ans:
+A servlet is a Java class which is used to extend the capabilities of servers that host applications 
+accessed by means of a request-response model. Servlets are mainly used to extend the 
+applications hosted by webs servers, however, they can respond to other types of requests too. 
+For such applications, HTTP-specific servlet classes are defined by Java Servlet technology.
+
+A JSP is a text document which contains two types of text: static data and dynamic data. The 
+static data can be expressed in any text-based format (like HTML, XML, SVG and WML), and 
+the dynamic content can be expressed by JSP elements.
+                                                                                                                         
+3)What are different types of file formats ?  and 4)What is the difference between different file formats?   
+Ans:
+.AIFF or .AIF	Audio Interchange File Format
+.AU	Basic Audio
+.AVI	Multimedia Audio/Video
+.BAT	PC batch file
+.BMP	Windows BitMap
+.CLASS or .JAVA	Java files
+.CSV	Comma separated, variable length file (Open in Excel)
+.CVS	Canvas
+.DBF	dbase II, III, IV data
+.DIF	Data Interchange format
+.DOC or .DOCX	Microsoft Word for Windows/Word97
+.EPS	Encapsulated PostScript
+.EXE	PC Application
+.FM3	Filemaker Pro databases (the numbers following represent the version #)
+.GIF	Graphics Interchange Format
+.HQX	Macintosh BinHex
+.HTM or .HTML	Web page source text
+.JPG or JPEG	JPEG graphic
+.MAC	MacPaint
+.MAP	Web page imagemap
+.MDB	MS Access database
+.MID or .MIDI	MIDI sound
+.MOV or .QT	QuickTime Audio/Video
+.MTB or .MTW	MiniTab
+.PDF	Acrobat -Portable document format                                 
+                                                                                                                                                     
+5)Write a java JDBC program making CRUD applications ?  
+Ans:
+Done and uploaded as DataBaseDemo file
+                                                                              
+6)What is the foreign key?   
+Ans:
+A foreign key is a column or group of columns in a relational database table that provides 
+a link between data in two tables. It acts as a cross-reference between tables because it 
+references the primary key of another table, thereby establishing a link between them.  
+                                                                                                                         
+7)Installation of postgresql?
+Ans:
+Done
+8)Difference between spring frame work and spring boot ?
+Ans:
+In the Spring framework, you have to build configurations manually. In Spring Boot there 
+are default configurations that allow faster bootstrapping. Spring Framework requires a 
+number of dependencies to create a web app. Spring Boot, on the other hand, can get an 
+application working with just one dependency.
+9)Name of inheritance that java doesnt support ? and why
+Ans:
+Multiple Inheritance
+
+The reason behind this is to prevent ambiguity. Consider a case where class B extends 
+class A and Class C and both class A and C have the same method display(). Now java 
+compiler cannot decide, which display method it should inherit. To prevent such situation, 
+multiple inheritances is not allowed in java.
