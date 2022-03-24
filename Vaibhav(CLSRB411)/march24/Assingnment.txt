@@ -1,0 +1,13 @@
+1) what is the keywords used by concrete class to inherit from abstract class?
+   
+
+2) what is the keywords used by abstract class to inherit from abstract class ?
+   Extends
+
+3) what is the keywords used by concrete class to inherit from interface?
+   Implements
+
+4) What is the name of inheritance which is not supported in java and why?
+   multiple Inheritance, The reason behind this is to prevent ambiguity. Consider a case where class B extends class A
+   and Class C and both class A and C have the same method display(). Now java compiler cannot decide, which display method
+   it should inherit. To prevent such situation, multiple inheritances is not allowed in java.
