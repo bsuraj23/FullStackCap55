@@ -1,0 +1,58 @@
+boolean add(String str){
+        //comment
+        System.out.println("Hellow " +str  +"can you hear me ?");
+        return false;
+    }
+}
+
+
+1.why the output is showing false????
+
+Ans: Because the return type is false.
+
+2.difference between constructor and method?
+
+Ans: A method will have a return type and constructor will not have
+ any return types. Contructor helps an object to intialize its variables
+
+3.who gives default constructor?
+
+Ans: The Java compiler provides a default constructor if you don't have
+any constructor in a class. The method is not provided by the compiler 
+in any case. The constructor name must be same as the class name
+
+4.what are the other roles of jvm?
+
+Ans:The JVM has two primary functions: to allow Java programs to run
+on any device or operating system (known as the "Write once, run anywhere" 
+principle), and to manage and optimize program memory.
+
+
+5.What is the difference between c and java access specifiers?
+
+Ans: C does not have any access specifiers
+
+6.why only jvm gives default constructor?
+
+Ans: JVM does not provide any default constructor.
+
+7.why string is passed in main method?
+
+Ans: Since the main method is the entry point of the Java program, whenever 
+you execute one the JVM searches for the main method, which is public, 
+static, with return type void, and a String array as an argument. If anything 
+is missing the JVM raises an error.
+
+8.what happens if final keyword is applied on variable,class and method?
+
+Ans: If we initialize a variable with the final keyword, then we cannot modify 
+its value. If we declare a method as final, then it cannot be overridden by any 
+subclasses. And, if we declare a class as final, we restrict the other classes to 
+inherit or extend it.
+
+9.Is java call by reference or call by value?
+
+Ans:Java uses only call by value while passing reference variables as well. It creates
+ a copy of references and passes them as valuable to the methods. As 
+reference points to same address of object, creating a copy of reference is
+ of no harm.
