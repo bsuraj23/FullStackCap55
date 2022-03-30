@@ -1,0 +1,152 @@
+
+1. what languages do u need to learn as a Android developer? 
+
+* Java
+* Kotlin
+* C++
+* C#
+* Python
+* HTML,CSS,JavaScript
+* Dart
+
+
+
+2. what is cloud ? 
+
+"The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers. Cloud servers are located in data centers all over the world. 
+
+
+
+3. what is HTML,CSS,JS?
+
+* HTML stands for Hyper Text Markup Language
+* It is the standard markup language for creating Web pages
+* HTML describes the structure of a Web page
+* It consists of a series of elements
+* HTML elements tell the browser how to display the content
+
+* CSS stands for Cascading Style Sheets
+* It describes how HTML elements are to be displayed on screen, paper, or in other media
+* CSS saves a lot of work. It can control the layout of multiple web pages all at once
+* External stylesheets are stored in CSS files
+
+* JavaScript is the Programming Language for the Web.
+* It can update and change both HTML and CSS.
+* It can calculate, manipulate and validate data.
+
+
+
+4. Difference between java and javascript?
+
+1. Java is a multi-platform, object-oriented, and network-centric, programming language whereas JavaScript is a scripting language that helps you create interactive web pages.
+2. Java is a strongly typed language while JavaScript is a weakly typed language.
+3. Java has a file extension “.Java,” whereas Javascript has the file extension “.js”
+4. With Java, you write code once and run it on almost any computing platform, on the other hand, Java script is a cross-platform language.
+5. Java is compiled on the server before execution on the client while JavaScript is interpreted by the client.
+6. Java is static language while JavaScript is a dynamic language.
+
+
+
+5. what is cookie?
+
+Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience.
+
+Data stored in a cookie is created by the server upon your connection. This data is labeled with an ID unique to you and your computer.
+
+When the cookie is exchanged between your computer and the network server, the server reads the ID and knows what information to specifically serve to you.
+
+
+
+6. If JavaScript can do frontend then why react and angular ?
+
+React is one of the most widely used libraries for front-end development. React has become the first choice for frontend because it gives developers the ability to work with a virtual browser (more friendly than the real browser).
+
+
+So the creators of Angular made a framework that is based on typescript, which can generate HTML, CSS and javascript code with the help of transpires, for the purpose of generating a workable package that can be understood by a browser. That's why Angular is considered a frontend framework.
+
+
+
+7. Understand What is react and angular ?
+
+Angular is a Google-developed and maintained web framework that was first released in 2010 under the name AngularJS. It quickly became one of the most popular web frameworks at the time. This was owing to capabilities like two-way data binding and dependency injection, as well as the fact that it was supported by a tech giant.
+
+React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.[4][5][6] React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
+
+
+
+8. what is ORM and hibernate?
+
+Object-relational mapping or ORM is the programming technique to map application domain model objects to the relational database tables. Hibernate is a Java-based ORM tool that provides a framework for mapping application domain objects to the relational database tables and vice versa
+
+
+
+9. what are the keywords used for...class to class and class to interface  and interface to interface?
+
+Class to class -> extends
+Class to interface -> implements
+Interface to interface -> extends
+
+
+
+10. What is the default access modifier for a variable and functions in Java?
+
+When we don't use any keyword explicitly, Java will set a default access to a given class, method or property. The default access modifier is also called package-private, which means that all members are visible within the same package but aren't accessible from other packages
+
+
+
+11. How many types of file format is there ?
+
+There are 21 file formats :
+* 1. Joint photographic experts group (JPEG or JPG)
+* 2. Graphics interchange format (GIF)
+* 3. Scalable vector graphics (SVG)
+* 4. Portable networks graphic (PNG)
+* 5. Tagged image file format (TIFF or TIF)
+* 6. Portable document format (PDF)
+* 7. Word document (DOC and DOCX)
+* 8. Hypertext markup language (HTML and HTM)
+* 9. Microsoft excel spreadsheet file (XLS and XLSX)
+* 10. Text file (TXT)
+* 11. Moving picture experts group layer four (MP4)
+* 12. Audio video interleave (AVI)
+* 13. QuickTime Movie file (MOV)
+* 14. Flash video format (FLV)
+* 15. Advanced video coding, high definition (AVCHD)
+* 16. PowerPoint presentation (PPT or PPTX)
+* 17. Open document presentation (ODP)
+* 18. Apple Keynote file (KEY)
+* 19. MPEG 4 audio (M4A)
+* 20. MPEG layer audio 3 (MP3)
+* 21. Waveform audio file (WAV)
+
+
+12. Does python has a support to db2 ?
+
+Before you can run SQL statements to create, update, delete, or retrieve data, you must connect to a database. You can use the ibm_db API to connect to a database through either a cataloged or uncataloged connection.
+
+
+
+13. Difference Between Spring frame work and spring boot
+
+
+               Spring	                                                             Spring Boot
+Widely used for building enterprise Java applications	            = Widely used for building REST APIs
+Aims to simplify enterprise Java development	                    = Aims to shorten code length and easily build web applications
+Allows building loosely coupled applications	                    = Allows building standalone applications
+Main feature is dependency injection	                            = Main feature is auto-configuration
+Involves writing lots of boilerplate code	                            = Reduces boilerplate code
+Needs dependencies to be defined manually	                            = Starters take care of dependencies
+Involves setting up server manually	                            = Includes embedded server like Tomcat and Jetty
+
+
+
+
+14. Difference Between Linux OS and windows OS?
+
+Key	                          Linux	                                                            Windows
+Open Source	= Linux is Open Source and is free to use.	                         = Windows is not open source and is not free to use.
+Case sensitivity	= Linux file system is case sensitive.	                         = Windows file system is case insensitive.
+kernel type	= Linux uses monolithic kernel.	                                 = Windows uses micro kernel.
+Efficiency	= Linux is more efficient in operations as compared to Windows.    = Windows is less efficient in operations.
+Path Seperator	= Linux uses forward slash as path seperator between directorioes. = Windows uses backward slash as a path seperator.
+Security	         = Linux is highly secure as compared to Windows.	                = Windows provides less security as compared to Linux.
