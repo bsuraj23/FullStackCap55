@@ -1,0 +1,71 @@
+1> Predefined functions in collections.
+public boolean add(Element)
+public boolean addAll(collection )
+public boolean remove(Object element)
+public int size()
+public Object[] toArray()
+public boolean isEmpty()
+public boolean equals(Object element)
+
+public Iterator iterator()  //( Iterator itr=list.iterator(); )
+	public boolean hasNext()
+	public Object next()
+	public void remove()
+
+
+2>underlying ds for linked list, arraylist.
+LinkedList – Double Ended Queue 
+ArrayList – Array
+
+
+3>advantages and disadvantages of array list
+Advantage: 
+Dynamic in nature (size can be changed during runtime)
+Has Predefined Methods for adding, removing and sorting elements.
+Add any type of data into ArrayList.
+	Retrieval is faster in ArrayList.
+Disadvantages:
+If a data entry is added to or removed from an array-based list, data needs to be shifted to update the list.
+ArrayList don’t work on primitive values.
+
+
+4>What are iterators and cursors.
+Iterator- Iterator is an object that can be used to loop through collections 
+		methods 
+hasNext() ,next() , remove()
+Cursor- A Java Cursor is an Iterator, which is used to iterate or traverse or 
+retrieve a Collection or Stream object’s elements one by one.
+Type of Cursor –
+Iterator, Enumeration, ListIterator
+
+
+5>List down the security breaches than can happen in front end backend.
+10 OWASP- 
+1.	Broken Access Control
+2.	Cryptographic Failures
+3.	Injection
+4.	Insecure Design
+5.	Security Misconfiguration
+6.	Vulnerable and Outdated Components
+7.	Identification and Authentication Failures
+8.	Software and Data Integrity Failures
+9.	Security Logging and Monitoring Failures
+10.	Server-Side Request Forgery
+	
+
+6>IndexOutOfBoundsException and ArrayIndexOutOfBoundsException is same?
+IndexOutOfBoundsException: Thrown to indicate that an index of some sort (such as to an array, to a string, or to a vector) is out of range.
+ArrayIndexOutOfBoundsException: Thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+
+
+7>can catch be written without try?
+No, “Catch” has to written for a “Try”.
+
+
+8>can try be written without catch block?
+ Yes, we can have “try” without “catch” block by using “finally” block.
+we cannot write only “try” block without “catch” or a “finally” blocks.
+
+
+9>can finally be return without try catch?
+We cannot have a “finally” without a “try”, “Catch” is optional.
