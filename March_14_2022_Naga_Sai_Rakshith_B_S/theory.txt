@@ -1,0 +1,22 @@
+1) What is Debugging?
+-> The Java Platform Debugger Architecture is a collection of APIs to debug Java code. 
+-> Java Debugger Interface - defines a high-level Java language interface that developers can easily use to write remote debugger application tools. 
+
+2) What are the default packages present in java?
+-> Java compiler imports java. lang package internally by default. 
+-> It provides the fundamental classes that are necessary to design a basic Java program. 
+
+3) Can we have an else condition without if condition?
+-> It is very common to have an if without an else when there is no specific activity that needs to be performed when the condition is false. 
+
+4) Other than boolean can we use anything in if condition?
+-> if ( condition ) statement; if is a Java reserved word The condition must be a boolean expression. 
+-> It must evaluate to either true or false. If the condition is true, the statement is executed. 
+
+5) Why break is imp in switch case?
+-> When you switch on a value, the switch statement essentially does a goto to the label with the matching value. 
+-> This means that the break is necessary to avoid passing through to the code under the next label. 
+
+6) Understand the naming conventions in java?
+-> For variables, the Java naming convention is to always start with a lowercase letter and then capitalize the first letter of every subsequent word. 
+-> Variables in Java are not allowed to contain white space, so variables made from compound words are to be written with a lower camel case syntax.
