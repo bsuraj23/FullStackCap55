@@ -1,18 +1,7 @@
-what is the keywords used by concrete class to inherit from abstract class
 
----------------------------------------------------------------------------------------------
-what is the keywords used by abstract class to inherit from abstract class 
-
-
----------------------------------------------------------------------------------------------
-what is the keywords used by concrete class to inherit from interface?
-
-
----------------------------------------------------------------------------------------------
 What is the name of inheritance which is not supported in java and why?
 
 Multiple inheritance is not supported because it leads to deadly diamond problem
-
 ---------------------------------------------------------------------------------------------
  Difference between spring frame work and spring boot ?
 
@@ -25,14 +14,10 @@ Spring Boot,can get an application working with just one dependency
 what is spring ioc 
 Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, 
 manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application.
-
-
- to invert different kinds of controls in object-oriented design to achieve loose coupling.
+to invert different kinds of controls in object-oriented design to achieve loose coupling.
 
 ---------------------------------------------------------------------------------------------
- When you hit first time to website what data does request and response contain? 
-  
----------------------------------------------------------------------------------------------
+
 )What are servlets and JSP's? 
 A servlet is a Java programming language class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model
 JSP
@@ -59,9 +44,7 @@ Web applications, PowerPoint and Keynote
 presentations. Ideal for when you want a
 simple animation.
 ---------------------------------------------------------------------------------------------                           
-Write a java JDBC program making CRUD applications  ? 
-
----------------------------------------------------------------------------------------------        
+      
 What is the foreign key?   
 Foreign Key is a column that refers to the primary key/unique key of other table. So it 
 demonstrates relationship between tables and act as cross reference among them
