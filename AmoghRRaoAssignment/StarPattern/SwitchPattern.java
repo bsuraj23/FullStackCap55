@@ -1,3 +1,5 @@
+package AmoghRRaoAssignment.StarPattern;
+
 import java.util.Scanner;
 
 public class SwitchPattern {
