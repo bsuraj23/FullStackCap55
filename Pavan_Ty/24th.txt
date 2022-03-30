@@ -1,0 +1,80 @@
+what is the keywords used by concrete class to inherit from abstract class
+
+---------------------------------------------------------------------------------------------
+what is the keywords used by abstract class to inherit from abstract class 
+
+
+---------------------------------------------------------------------------------------------
+what is the keywords used by concrete class to inherit from interface?
+
+
+---------------------------------------------------------------------------------------------
+What is the name of inheritance which is not supported in java and why?
+
+Multiple inheritance is not supported because it leads to deadly diamond problem
+
+---------------------------------------------------------------------------------------------
+ Difference between spring frame work and spring boot ?
+
+In the Spring framework, you have to build configurations manually.
+ In Spring Boot there are default configurations that allow faster bootstrapping.
+ Spring Framework requires a number of dependencies to create a web app. 
+Spring Boot,can get an application working with just one dependency
+
+---------------------------------------------------------------------------------------------
+what is spring ioc 
+Spring IoC Container is the core of Spring Framework. It creates the objects, configures and assembles their dependencies, 
+manages their entire life cycle. The Container uses Dependency Injection(DI) to manage the components that make up the application.
+
+
+ to invert different kinds of controls in object-oriented design to achieve loose coupling.
+
+---------------------------------------------------------------------------------------------
+ When you hit first time to website what data does request and response contain? 
+  
+---------------------------------------------------------------------------------------------
+)What are servlets and JSP's? 
+A servlet is a Java programming language class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model
+JSP
+JSP) is a technology for developing Webpages that supports dynamic content. This helps developers insert java code in HTML pages by making use of special JSP tags, most of which start with <% and end with %>
+---------------------------------------------------------------------------------------------           
+
+what is autowiring in spring boot
+ Autowiring feature of spring framework enables you to inject the object dependency implicitly. 
+It internally uses setter or constructor injection. Autowiring can't be used to inject primitive and string values. It works with reference only.  
+------------------------------------------------------------------------------------------------------------------------------------------------                                    
+What is the difference  flie formates and what is the differenece between them?  
+JPG
+ Best for posting photos and images online
+Smaller file sizesbut can impact quality
+PNG
+Best for icons andlogos due to transpar-ency features
+Smaller file sizesbut only for limitedcolor palettes
+PDF
+Best for interactive and print documents
+Quality is retained, keepingdecent file sizes
+GIF
+
+Web applications, PowerPoint and Keynote
+presentations. Ideal for when you want a
+simple animation.
+---------------------------------------------------------------------------------------------                           
+Write a java JDBC program making CRUD applications  ? 
+
+---------------------------------------------------------------------------------------------        
+What is the foreign key?   
+Foreign Key is a column that refers to the primary key/unique key of other table. So it 
+demonstrates relationship between tables and act as cross reference among them
+---------------------------------------------------------------------------------------------
+Installation of postgresql?
+Step 1:Download Postgres Installer here. Postgres Installer is available for PostgreSQL 9.5, 9.6, 10, 11, and 12(beta).
+
+Step 2:Click on the executable file to run the installer.
+
+Step 3:Select your preferred language
+Step 4:Specify directory where you want to install PostgreSQL.
+Step 5:Specify PostgreSQL server port. You can leave this as default if you’re unsure what to enter.
+Step 6:Specify data directory to initialize PostgreSQL database.
+Step 7:Create a PostgreSQL user password.
+Step 8:Create password for database Superuser.
+Step 9:Click next to begin PostgreSQL installation.
