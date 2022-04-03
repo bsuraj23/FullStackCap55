@@ -1,0 +1,118 @@
+CAPG48LSRB347
+ARCHANA.S.AJITH
+
+1. What languages do you need to learn as a android developer?
+Ans)Java
+Kotlin. ...
+C++ ...
+C# ...
+Python. ...
+HTML, CSS, JavaScript. ...
+Dart.
+2 . what is cloud ? what is cloud from AWS? what is cloud from Microsoft?
+Ans)The definition for the cloud can seem murky, but essentially, it's a term used to describe a global network of servers,
+ each with a unique function. The cloud is not a physical entity, but instead is a vast network of remote servers around 
+the globe which are hooked together and meant to operate as a single ecosystem.
+Cloud in AWS-Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources 
+through a cloud services platform via the Internet with pay-as-you-go pricing.
+Cloud in Microsoft-Microsoft Azure, formerly known as Windows Azure, is Microsoft's public cloud computing platform.
+ It provides a range of cloud services, including compute, analytics, storage and networking.
+
+3 . what is html ,css,js?
+Ans)HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. 
+CSS is used to control presentation, formatting, and layout. 
+JavaScript is used to control the behavior of different elements
+
+4 . Write a program on hello world in html?
+Ans)<!DOCTYPE html>
+ 
+<html>
+    <head>
+        <title>
+            First Web Page
+        </title>
+    </head>
+ 
+    <body>
+        Hello World!
+    </body>
+</html>
+
+5. Difference between java and js?
+Ans)According to the Java platform official website, the main difference between Java and JavaScript is that 
+Java is an OOP programming language while JavaScript is an OOP programming script. 
+JavaScript code is written completely in text and need only be interpreted.
+Java, on the other hand, must be compiled.
+
+6. what happens when you hit google . com?
+Ans)So back to the main question of what happens when you type www.google.com or any other URL (Uniform Resource Locator)
+ in your web browser and press Enter. 
+So the first thing that happens is that your browser looks up in its cache to see if that website was visited before and 
+the IP address is known.
+
+7. what is cookie?  write a code to display all the cookies in your browser?
+ Ans)HTTP cookies are small blocks of data created by a web server while a user is browsing a website and placed on the 
+user's computer or other device by the user's web browser. Cookies are placed on the device used to access a website, 
+and more than one cookie may be placed on a user's device during a session.
+
+8. how are you getting the information in Google without even login in ?
+Ans)Google uses the information shared by sites and apps to deliver our services, maintain and improve them, develop new services, 
+measure the effectiveness of advertising, protect against fraud and abuse, and personalize content and ads you see on Google and on our partners' sites and apps.
+
+9. If JavaScript can do frontend then why react and angular ? 
+Ans)for complex apps, a library like React is definitely worth the extra learning curve at the start. 
+It means you can write more maintainable apps with fewer bugs. And once you take the time to learn it, writing React is faster
+ and more fun as well!
+JavaScript is both a server-side and client-side scripting language for building web applications. 
+On the other hand, AngularJS makes web applications quick and straightforward from the start. 
+JavaScript takes less time to patch bugs and defects on a wide scale.
+
+10. Understand What is react and angular ? 
+Ans)React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. 
+It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
+Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. 
+Angular is a complete rewrite from the same team that built AngularJS.
+
+11. what is orm and hibernate?
+Ans)Object–relational mapping in computer science is a programming technique for converting data between incompatible type 
+systems using object-oriented programming languages. This creates, in effect, a "virtual object database" that can be used 
+from within the programming language.
+Hibernate reduces lines of code by maintaining object-table mapping itself and returns result to application in form of Java objects. 
+It relieves programmer from manual handling of persistent data, hence reducing the development time and maintenance cost.
+
+12. what are the keywords used for...class to class and class to interface ?
+Ans)class to class-extends
+class to interface-implements
+
+13. What is the default access for the variables and function define in Java 7
+Ans)Java provides a number of access modifiers to set access levels for classes, variables, methods, and constructors. 
+The four access levels are − Visible to the package, the default.
+The default access modifier is also called package-private, which means that all members are visible within the same package but aren't accessible from other packages: package com
+
+14. How many types of file format is there ?
+Ans)6 Different Types of Files and How to Use Them
+JPEG (Joint Photographic Experts Group) ...
+PNG (Portable Network Graphics) ...
+GIF (Graphics Interchange Format) ...
+PDF (Portable Document Format) ...
+SVG (Scalable Vector Graphics) ...
+MP4 (Moving Picture Experts Group)
+
+15. Example of  rdbms and non rdbms
+Ans)Some examples of specific systems that use RDBMS include IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.
+NoSQL or non-relational databases examples:MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+
+16. Does python has a support to db2
+Ans)Db2 does not offer one, but four drivers (clients) for Python.
+ibm_db driver: Python driver for IBM DB2 and IBM Informix databases. 
+Uses the IBM Data Server Driver for ODBC and CLI APIs to connect to IBM DB2 and Informix. ibm_db_dbi: 
+Python driver for IBM DB2 and IBM Informix databases that complies to the DB-API 2.0 specification.
+
+17. Diff Between Spring frame work and spring boot
+Ans)In the Spring framework, you have to build configurations manually. 
+In Spring Boot there are default configurations that allow faster bootstrapping. 
+Spring Framework requires a number of dependencies to create a web app. 
+Spring Boot, on the other hand, can get an application working with just one dependency.
+
+18. Diff Between Linux OS and windows OS.
+Ans)Linux is Open Source and is free to use. Windows is not open source and is not free to use. Linux file system is case sensitive. Windows file system is case insensitive.
