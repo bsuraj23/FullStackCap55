@@ -1,0 +1,64 @@
+Name:Archana.S.Ajith
+Id:CAPG48LSRB347
+
+1.Difference between sdj,jre,jdk?
+Ans)A software development kit (SDK) is a set of tools that provides a developer with the ability to build a custom app ,
+which can be added on, or connected to, another program. SDKs allow programmers to develop apps for a specific platform.
+
+JDK is a software development environment used for making applets and Java applications. 
+The full form of JDK is Java Development Kit. Java developers can use it on Windows, macOS, Solaris, and Linux. 
+JDK helps them to code and run Java programs. It is possible to install more than one JDK version on the same computer.
+
+JRE is a piece of a software which is designed to run other software.
+It contains the class libraries, loader class, and JVM. 
+In simple terms, if you want to run Java program you need JRE. 
+If you are not a programmer, you don’t need to install JDK, but just JRE to run Java programs.
+
+2)Difference between eclipse,sts,intelli J?
+Ans)The main difference between Eclipse and IntelliJ lies in their intended use.
+While IntelliJ is a Java IDE for professionals and students, Eclipse focuses on open-source development with its 
+wide range of optimized IDEs. Compared to IntelliJ IDEA, Eclipse comes in 40+ languages.
+STS is built on top of Eclipse. The difference is only related to another products support from the STS installation,
+like Roo, Pivotal tc Server, Cloud Foundry and getting started guides, but you could also include this features 
+in your Eclipse installation.
+
+3)Commands in windows?
+Ans)Access help system in an application	F1
+Activate menu bar	F10
+Close a program	Alt + F4
+Close current window in Multiple Document interface based programs	CTRL + F4
+Access right-click menu in the application	Shift + F10
+Launch Start menu	Ctrl + ESC or Windows key
+Cut	CTRL + X
+Copy	CTRL + C
+Paste	CTRL + V
+Delete	DEL
+Undo	CTRL + Z
+System Properties	Windows key + Pause/Break
+
+4)Shortcut keys for eclipse?
+Ans)Ctrl+Shift+R  -Search dialog for resources, e.g., text files
+Ctrl+Shift+T -Search dialog for Java Types
+Ctrl+F8 -Shortcut for switching perspectives
+Ctrl+F11 -Run last launched
+F11 -last launched in debug mode
+Ctrl+Alt+B -Skip all breakpoints. Let’s you use debug mode for code reloading
+Alt+Shift+X, J -Run current selected class as Java application
+Alt+Shift+X, T -Run JUnit test
+Alt+Shift+X, P -Run JUnit Plug-in test
+Ctrl+1 -Quickfix; result depending on cursor position
+Ctrl+Space -Content assist/ code completion
+Ctrl+T -Show the inheritance tree of the current Java class or method.
+Ctrl+O -Show all methods of the current class, press Ctrl + O again to show the inherited methods.
+Ctrl+M -Maximize active editor or view
+Ctrl+Shift+F -Format source code
+Ctrl+I -Correct indentation, e.g., format tabs/whitespaces in code
+Ctrl+F -Opens the find dialog
+Shift+Enter -Adds a link break at the end of the line
+Ctrl+Shift+O -Organize the imports; adds missing import statements and removes unused ones
+Alt+Shift+Z -Wrap the select block of code into a block, e.g. try/catch.
+
+5)What are ascii values
+Ans)ASCII is a 7-bit character set having 128 characters, i.e., from 0 to 127.
+ASCII represents a numeric value for each character, such as 65 is a value of A. 
+In our Java program, we need to manipulate characters that are stored in ASCII.
