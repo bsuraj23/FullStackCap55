@@ -1,0 +1,64 @@
+Name: VEMA RAHUL SAIRAM
+RollNo:  CAPG48LSRB330
+
+1) Which one is good Inline CSS or External file ?
+A) Inline css is preferable when you need to style specific HTML element. Where as External CSS file preferable when you need to style the entire page.
+   The main difference between inline CSS and external CSS is that inline CSS is processed faster as it only requires the browser to download 1 file
+   while using external CSS will require downloading HTML and CSS files separately.In Inline,Styling multiple elements can affect your page’s size and download time.
+   Inline css is faster when compared to external file but not preferable because it takes long time to code each and every element in the page.My conclusion is like
+   using External css is preferable and have lesser drawbacks than that in internal css.
+
+2) Where to use # in css ?
+A) we wil use # in order to style the html element which is defined with specific id.
+   example: <h1 id = "heading"></h1> now in order to style this we will user #heading{}.
+
+3) Difference between html5 and other html versions ?
+A) The most significant difference between older versions of HTML vs HTML5 is the integration of video and audio into the language's specifications. 
+   Additionally, HTML5 includes the following updates:
+	Deprecated elements like center, font, and strike have been dropped.
+	Improved parsing rules allow for more flexible parsing and compatibility.
+	New elements including video, time, nav, section, progress, meter, aside and canvas.
+	New input attributes including email, URL, dates and times.
+	New attributes including charset, async and ping.
+	By limiting the need for external plugins, HTML5 allows for faster delivery of more dynamic content.
+
+4) How can you make your page Responsive ?
+A) To create a responsive website, add <meta name="viewport" content="width=device-width, initial-scale=1.0"> this meta tag to all the webpages.
+   This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.
+
+5) html5 elements ?
+A) There are approximately 110 tags in HTML5. There are 32 tags which are newly introduced in HTML5. The following section contains a brief overview of HTML5 Tags. 
+   The following list of all HTML5 tags or elements given order by alphabet.
+
+6) Why only react and angular ?
+A) The main aim of React. js is to offer an exceptional rendering performance. And the strength of this framework comes completely from its individual elements.
+   With this JavaScript framework, rather than focusing on the complete website application, developers can segregate the intricate UI into user-friendly components.
+   Modularity is one of the prime reasons why AngularJS is popular among web developers. It allows and enables web developers to create multiple modules for a single web application.
+   All these modules are dependent on one another and developers can easily combine them to create a single running application.
+
+7) What are Cookies in backend ?
+A) Cookies are tiny pieces of data that the backend can store in the user's browsers. User tracking, personalization, and most important, authentication, are the most common use cases for cookies.
+   Cookies have a lot of privacy concerns, and have been subject to strict regulation over the years.
+
+8) What is Json ?
+A) JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
+   It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)
+
+9) Understand SOAP ?
+A) SOAP is a restful api which is user before postman.SOAP (Simple Object Access Protocol) is a standards-based web services access protocol that has been around for a long time. 
+   Originally developed by Microsoft, SOAP isn't as simple as the acronym would suggest. REST (Representational State Transfer) is another standard, made in response to SOAP's shortcomings.
+
+10) What is Node ?
+A)  Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature.
+    It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+
+11) React and Angular difference ?
+A)  While Angular is a full-fledged framework for development and testing, React only allows developers to build UI components for their applications.
+    On the other hand, React is fast, efficient, and is growing in popularity because it is lightweight and suitable for mobile native and Single Page Applications.
+
+12) Es 5 and Es 6 ?
+A)  ES5 uses the Require js module to include a react module or a component. ES6 uses the import module to include a react module or a component.
+
+13) What is Rest controller and controller ?
+A)  The main difference between the @restcontroller and the @controller is that the @restcontroller combination of the @controller and @ResponseBody annotation. 
+    RestController: RestController is used for making restful web services with the help of the @RestController annotation.
