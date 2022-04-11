@@ -1,0 +1,55 @@
+1. inline css or external css? which one is good?why?
+-->Using an external css is definitel a better option because it will help you to remember the style you have applied on the divisions. it reduces the time of loading the page because the lesser the html code the faster it will load.
+
+2.Where to use '#' in css?
+-->we use #' in css to select an element with a specific id, we write # followed by the id of that element.
+
+3.Difference between html5 and other versions of html?
+-->the most significant difference between html5 and the older versions of html is the integration of video and audio into the language's specifications.
+
+4.how can you make your page responsive?
+--> to make a page responsive is to create a web page that looks good on all devices.
+To create a responsive webpage, add the <meta> tag to all your web pages.
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+5.html 5 elements
+-->elements of HTML5
+<article>	Represents an independent piece of content of a document, such as a blog entry or newspaper article
+<aside >	Represents a piece of content that is only slightly related to the rest of the page.
+<audio> 	Defines an audio file.
+<canvas>	This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games.
+<command>	Represents a command the user can invoke.
+<datalist>	Together with the a new list attribute for input can be used to make comboboxes
+<details>	Represents additional information or controls which the user can obtain on demand
+<embed>	        Defines external interactive content or plugin.
+<figure>	Represents a piece of self-contained flow content, typically referenced as a single unit from the main flow of the document.
+<footer>	Represents a footer for a section and can contain information about the author, copyright information, et cetera.
+<header>	Represents a group of introductory or navigational aids.
+<hgroup>	Represents the header of a section.
+<keygen>	Represents control for key pair generation.
+<mark>	        Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.
+<meter>	        Represents a measurement, such as disk usage.
+<nav>	        Represents a section of the document intended for navigation.
+<output>	Represents some type of output, such as from a calculation done through scripting.
+<progress>	Represents a completion of a task, such as downloading or when performing a series of expensive operations.
+<ruby>	        Together with <rt> and <rp> allow for marking up ruby annotations.
+<section>	Represents a generic document or application section
+<time>	        Represents a date and/or time.
+<video> 	Defines a video file.
+<wbr>   	Represents a line break opportunity.
+
+6.why only React and Angular?
+--> React is fast, efficient, and is growing in popularity because it is lightweight and suitable for mobile native and Single Page Applications, and Angular is a full-fledged framework for development and testing, React only allows developers to build UI components for their applications. 
+
+7.what are cookies in backend?
+-->Cookies are tiny pieces of data that the backend can store in the user's browsers. user tracking , authentication, personalization are the most common use cases for cookies.
+
+8.what is json?
+-->json is an open standard file format and data interchange format that uses human readable text to store and trasmit data objects consisting of attributr value pairs and arrays.
+
+9.what is saop?
+-->SOAP is a simple object access protocol is a message protocol that alows distributed elements of an application t communicate. saop xarried over a  variety of lower level protocols,including the web related hypertext transfer protocol.
+
+10.What is Node.js?
+-->Node.js is an open source cross platform, back end javaScript rutime environment that runs on the v8 engine and execute javaScript code outside a web browser.
