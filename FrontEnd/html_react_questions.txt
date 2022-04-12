@@ -105,19 +105,6 @@ JSON is often used when data is sent from a server to a web page
 JSON is "self-describing" and easy to understand
 
 
-what is SOAP?
-SOAP is an acronym for Simple Object Access Protocol. It is an XML-based messaging protocol for exchanging information among computers. SOAP is an application of the XML specification.
-
-Points to Note
-SOAP is a communication protocol designed to communicate via Internet.
-SOAP can extend HTTP for XML messaging.
-SOAP provides data transport for Web services.
-SOAP can exchange complete documents or call a remote procedure.
-SOAP can be used for broadcasting a message.
-SOAP is platform- and language-independent.
-SOAP is the XML way of defining what information is sent and how.
-SOAP enables client applications to easily connect to remote services and invoke remote methods.
-
 
 What is Node.js?
 Node.js is an open source server environment
