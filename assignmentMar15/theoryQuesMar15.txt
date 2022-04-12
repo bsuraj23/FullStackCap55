@@ -1,0 +1,26 @@
+1. Difference between constructor and method?
+	Constructor is used to initialize an object whereas method is used to exhibits functionality of an object. Constructors are invoked implicitly whereas methods are invoked explicitly. Constructor does not return any value where the method may/may not return a value.
+
+2. Who gives default constructor?
+	JVM
+
+3. What are the other roles of jvm?
+	The JVM has two primary functions: to allow Java programs to run on any device or operating system, and to manage and optimize program memory.
+
+4. What is the difference between c and java access specifiers?
+	There is no access specifires in c whereas there are four access modifiers in java.
+
+5. why only jvm gives default constructor?
+Ans : because the default constructor is used to provode the default values and this is done by the java compiler. the java compiler is the part of jvm.
+
+6. Who provides extra functions in main method??
+	The packages and libraries present in jvm.
+
+7. Why string is passed in main method?
+	Because by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily.
+
+8. What happens if final keyword is applied on variable,class and method?
+	If we initialize a variable with the final keyword, then we cannot modify its value. If we declare a method as final, then it cannot be overridden by any subclasses. And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+9. Is java call by reference or call by value?
+	Java uses only call by value while passing reference variables as well. It creates a copy of references and passes them as valuable to the methods. As reference points to same address of object, creating a copy of reference is of no harm.

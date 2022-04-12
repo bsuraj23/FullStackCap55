@@ -1,0 +1,43 @@
+1.  What are the predifined functions in collection in java?
+	Collections class is a member of the Java Collections Framework. The java.util.Collections package is the package that contains the Collections class. There are numerous predefined methods, such as length(), sqrt(), max(), and print(), and each of them is defined inside their respective classes.
+
+2. What are the underlying ds for linked list, arraylist in java?
+	ArrayList is a resizable array implementation in java. The backing data structure of ArrayList is an array of Object class.
+	Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at the contiguous location, the elements are linked using pointers.
+
+3. What are the advantages and disadvatages of array list?
+	Advantages:
+	ArrayList is variable length. 
+	Add any type of data into ArrayList.
+	Traverse in both directions.
+	ArrayList allows multiple null values.
+	ArrayList allows to add duplicate elements.
+	When ArrayList exceeds its capacity, then its size increases by 50%.
+	Retrieval is faster in ArrayList
+	
+	Disadvantages:
+	You can't maintain uniqueness.
+	If a data entry is added to or removed from an array-based list, data needs to be shifted to update the list.
+
+4. What are iterators and cursors?
+	Iterators in Java are used in the Collection framework to retrieve elements one by one. It is a universal iterator as we can apply it to any Collection object.
+	A Java Cursor is an Iterator, which is used to iterate or traverse or retrieve a Collection or Stream object’s elements one by one.
+
+5. What are the 10 owasp?
+	Injection
+	Broken Authentication
+	Sensitive Data Exposure
+	XML External Entities (XXE)
+	Broken Access Control
+	Security Misconfiguration
+	Cross-Site Scripting (XSS)
+	Insecure Deserialization.
+
+6. Can catch be return without try in java?
+	Yes, we can have try without catch block by using finally block. You can use try with finally. As you know finally block always executes even if you have exception or return statement in try block except in case of System.
+
+7. Can try be return catch in java?
+	Whenever try-block executes successfully, then it can always return value from end of method. If any exception is raised from try-block then it get caught in the corresponding catch-block and catch-block can also return value.
+
+8. Can finally be return without try catch in java?
+	A finally block must be associated with a try block, you cannot use finally without a try block. You should place those statements in this block that must be executed always.

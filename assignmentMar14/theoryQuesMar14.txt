@@ -1,0 +1,17 @@
+1.What is Debugging?
+   Debugging is the process of detecting and removing of existing and potential errors (also called as 'bugs') in a software code that can cause it to behave unexpectedly or crash. To prevent incorrect operation of a software or system, debugging is used to find and resolve bugs or defects.
+
+2.What are the default packages present in java?
+      Java compiler imports java. lang package internally by default. It provides the fundamental classes that are necessary to design a basic Java program.
+
+3.Can we have an else condition without if condition?
+      Yes, it is valid. The else is an optional part. During the program execution, the statements written inside the if block will only be executed when the condition mentioned is true. Otherwise, if the condition is false, the next consecutive lines after the if block will be executed.
+
+4.Other than boolean can we use anything in if condition?
+	The if condition is a Boolean expression: an expression that evaluates to either true or false. Boolean values are another type of data type in programming languages, and they can only ever hold true or false.
+
+5.why break is imp in switch case?
+	The case statements in a switch statements are simply labels. When you switch on a value, the switch statement essentially does a goto to the label with the matching value. This means that the break is necessary to avoid passing through to the code under the next label.
+
+6.understand the naming conventions in java.
+	For variables, the Java naming convention is to always start with a lowercase letter and then capitalize the first letter of every subsequent word. Variables in Java are not allowed to contain white space, so variables made from compound words are to be written with a lower camel case syntax.
