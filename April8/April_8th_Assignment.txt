@@ -62,3 +62,5 @@ A)  ES5 uses the Require js module to include a react module or a component. ES6
 13) What is Rest controller and controller ?
 A)  The main difference between the @restcontroller and the @controller is that the @restcontroller combination of the @controller and @ResponseBody annotation. 
     RestController: RestController is used for making restful web services with the help of the @RestController annotation.
+    
+    Nikitha
