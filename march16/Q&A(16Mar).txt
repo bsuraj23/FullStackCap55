@@ -1,0 +1,119 @@
+
+Name:Kaluvai Deepak Reddy
+Date: 16-03-2022
+
+1. Java program on 5/0. What will be the error?
+Ans: Arithmetic Exception.
+
+
+2. Understand format exceptions
+Ans: To handle this exception, try—catch blocks can be used. While operating upon strings, there 
+are times when we need to convert a number represented as a string into an integer type. The method 
+generally used to convert String to Integer in Java is parselnt().
+
+
+3. Is arrayindexoutof bound and indexoutofbound same?
+Ans: IndexOutOfBoundsException is the super class of ArraylndexOutOfBoundsException (thrown when 
+accessing invalid index in an array) and StringlndexOutOfBoundsException (thrown when accessing 
+invalid index in a String).
+
+
+4. Understand the hierarchy of exceptions Ans:
+
+
+
+
+
+5. Can catch be written without a try block? Ans: No
+
+
+6. Can a try block be written without a catch block?
+Ans: Yes, It is possible to have a try block without a catch block by using a final block.
+
+7. Can a finally be written without try,catch?
+Ans: Yes, it is not mandatory to use catch block with finally but Finally cannot be used without a 
+try block.
+
+
+8. Predefined functions in collections
+Ans: A collection method is a built-in function or procedure that operates on collections and is 
+called using dot notation.
+You can use the methods EXISTS, COUNT, LIMIT, FIRST, LAST, PRIOR, NEXT, EXTEND,
+TRIM, and DELETE to manage collections whose size is unknown or varies.
+
+
+9. Underlying data structures of linkedlist and arraylist
+Ans: Both ArrayList and LinkedList are two different implementations of the List interface.
+ArrayList is a resizable-array
+implementation, whereas LinkedList is a Doubly-linked list implementation of the List interface. 
+ArrayList is a resizable
+array implementation in java. The backing data structure of ArrayList is an array of Object class
+
+10. Advantages and disadvantages of arraylist Ans: Advantages:
+•  You can define ArrayList as a resizable array.
+•  Elements can be inserted at or deleted from a particular position.
+t•  The ArrayList class has many methods to manipulate the stored objects.
+•  If generics are not used, ArrayList can hold any type of objects.
+Disadvantages:
+•  A possible disadvantage of ArrayList is that it holds only object types and not primitive types 
+(eg, int ).
+•   To use a primitive type in an ArrayList, put it inside an object or use the wrapper classes 
+(eg, Integer, Double, Character, ...)
+
+11. What are iterators and cursors?
+
+
+
+Ans: To me, an iterator allows iteration of a container with no knowledge of the container itself. 
+A cursor, on the other hand, allows iteration of a container as well but has implementation details 
+specific to the container type, so it does keep a reference to the container.
+
+
+12. What are list iterator,iterator, enumerator?
+Ans:
+Enumerator:
+•  It can be applied only to the legacy classes.
+t•  Single direction,i.e.,we can traverse elements present in the collection only in the forward 
+direction.
+•  We can only perform the read operation.
+•  By calling elements() method present in the vector class.
+List Iterator:
+•  It can be applied to the only list interface.
+•  Bidirectional, i.e we can traverse elements present in the collection both in forward and 
+backward directions.
+•  We can perform read, remove, add, and replace operations.
+•  By calling the listlterator() method present in the list interface.
+Iterator:
+•  It can be applied to any collection interface.
+•  Single direction, i.e we can traverse elements present in the collection only in the forward 
+direction.
+•  We can perform a read and remove operation.
+By calling the iterator() method present in any collection interface.
+
+
+13. Difference between comparable and comparator
+Ans:
+Comparable:
+I   Comparable provides a single sorting sequence. In other words, we can sort the collection on 
+the basis of a single element such as id, name, and price.
+•  Comparable affects the original class, i.e., the actual class is modified.
+•  Comparable provides compareTo() method to sort elements. t•  Comparable is present in the 
+java.Iang package.
+•  We can sort the list elements of Comparable type by Collections.sort(List) method.
+Comparator:
+•   The Comparator provides multiple sorting sequences. In other words, we can sort the collection 
+on the basis of multiple elements such as id, name, and price etc.
+•  Comparator doesn't affect the original class, i.e., the actual class is not modified.
+•  Comparator provides compare() method to sort elements.
+•  A Comparator is present in the java.utiI package.
+•  We can sort the list elements of Comparator type by Collections.sort(List, Comparator)
+
+
+
+method.
+
+
+
+14. List down the security breaches that can happen in the frontend & backend. Ans: Injection
+Broken Authentication Sensitive Data Exposure XML External Entities (XXE) Broken Access Control 
+Security Misconfiguration Cross-Site Scripting (XSS) Insecure Deserialization.
