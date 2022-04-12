@@ -1,0 +1,126 @@
+difference between react and angular?
+Angular is a Javascript framework built using Typescript, while Reactjs is a Javascript library and built using JSX. 
+Angular is mostly used to build complex enterprise-grade apps like single-page apps and progressive web apps, while React is used to build UI components in any app with frequently variable data.
+
+
+difference between es5 and es6?
+1. ECMAScript 5 (ES5P) : 
+ES5 is also known as ECMAScript 2009 as it is released in 2009. It is a function contractors focus on how the objects are instantiated. 
+For ES5 you have to write function keyword and return, to be used to define the function, like normal general JavaScript language. 
+
+2. ECMAScript 6 (ES6) : 
+ES6 is also known as ECMAScript 2015 as it is released in 2015. 
+Its class allows the developers to instantiate an object using the new operator, using an arrow function, in case it doesn’t need to use function keyword to define the function, also return keyword can be avoided to fetch the computer value. 
+
+
+difference between rest controller and controller?
+The @Controller is a annotation to mark class as Controller Class in Spring While @RestController is used in REST Web services and similar to @Controller and @ResponseBody.
+The @Controller annotation indicates that the class is controller like web Controller while @RestController annotation indicates that the class is controller where @RequestMapping Method assume @ResponseBody by Default(i.e REST APIs).
+The key difference is that you do not need to use @ResponseBody on each and every handler method once you annotate the class with @RestController.
+@Controller create a Map of Model Object and find a view while @RestController simply return object and object data directly written into http response as JSON orXML.
+
+
+inline css or external file. which one is good?
+Inline CSS is considered useful as it reduces the number of files that the browser needs to download before displaying the web page. With an external CSS, the browser first loads an HTML file and then downloads the CSS file.
+
+where to use # in css?
+when some data is to be selected with variable name.
+
+difference between html and html5?
+HTML
+Easy to learn and use: 
+HTML is one of the easiest language that you can learn and use to create web pages and static websites because of its easy to understand syntax and less requirements all you need is an editor ( Notepad, Sublime, VS code, etc ) and a browser ( google chrome, microsoft edge, uc browser, opera, etc. )
+Platform independent:
+It means you can create web pages on any system, processor, operating system and it will execute on any system that’s why it’s platform independent .
+Multimedia Support:
+You can add images, audio, videos along with gifs into your webpage with the help of HTML.
+Interpreted language: 
+HTML is an interpreted language that converts the code into machine language so that machine can understand it. It interpretes or converts code line by line to machine language.
+Hypertexts:
+HTML supports hypertexts so we can add hypertexts in our web pages to interlink web pages and make a website . 
+
+HTML5
+Browser support:
+HTML5 has browser support. It means even if some browsers are not supporting HTML5 you will be able to load webpage on that browser.
+Geolocation:
+HTML5 provides a geolocation feature. With the help of geolocation feature we can insert or implement maps in our web pages for example world map etc.
+Web storage: 
+HTML provides two types of storage. There are two types of storages session storage( only available within the browser tab or window session ) and local storage ( localStorage is kept even between browser sessions)
+Footer: 
+HTML5 provides a footer element The footer element is typically found at the bottom or foot of a webpage. It can contain copyright information, links to social media and additional site navigation items.
+New Application Programming Interface (API):
+HTML5 features like 2D drawing on a web page, Drag and Drop, timed media playback, browser history management.
+
+
+how can you make a page responsive?
+1. Set Appropriate Responsive Breakpoints
+2. Start with a Fluid Grid
+3. Take touchscreens into consideration
+4. Use Responsive Images and Videos
+5. Define Typography
+6. Use a pre-designed theme or layout to save time
+7. Test Responsiveness on Real Devices
+
+elements of HTML5
+<article>	Represents an independent piece of content of a document, such as a blog entry or newspaper article
+<aside >	Represents a piece of content that is only slightly related to the rest of the page.
+<audio> 	Defines an audio file.
+<canvas>	This is used for rendering dynamic bitmap graphics on the fly, such as graphs or games.
+<command>	Represents a command the user can invoke.
+<datalist>	Together with the a new list attribute for input can be used to make comboboxes
+<details>	Represents additional information or controls which the user can obtain on demand
+<embed>	        Defines external interactive content or plugin.
+<figure>	Represents a piece of self-contained flow content, typically referenced as a single unit from the main flow of the document.
+<footer>	Represents a footer for a section and can contain information about the author, copyright information, et cetera.
+<header>	Represents a group of introductory or navigational aids.
+<hgroup>	Represents the header of a section.
+<keygen>	Represents control for key pair generation.
+<mark>	        Represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.
+<meter>	        Represents a measurement, such as disk usage.
+<nav>	        Represents a section of the document intended for navigation.
+<output>	Represents some type of output, such as from a calculation done through scripting.
+<progress>	Represents a completion of a task, such as downloading or when performing a series of expensive operations.
+<ruby>	        Together with <rt> and <rp> allow for marking up ruby annotations.
+<section>	Represents a generic document or application section
+<time>	        Represents a date and/or time.
+<video> 	Defines a video file.
+<wbr>   	Represents a line break opportunity.
+
+
+why only react and angular??
+While Angular is a full-fledged framework for development and testing, React only allows developers to build UI components for their applications. 
+On the other hand, React is fast, efficient, and is growing in popularity because it is lightweight and suitable for mobile native and Single Page Applications.
+
+
+what are cookies in backend?
+Cookies are tiny pieces of data that the backend can store in the user's browsers. 
+User tracking, personalization, and most important, authentication, are the most common use cases for cookies. 
+Cookies have a lot of privacy concerns, and have been subject to strict regulation over the years.
+
+
+what is json?
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+what is SOAP?
+SOAP is an acronym for Simple Object Access Protocol. It is an XML-based messaging protocol for exchanging information among computers. SOAP is an application of the XML specification.
+
+Points to Note
+SOAP is a communication protocol designed to communicate via Internet.
+SOAP can extend HTTP for XML messaging.
+SOAP provides data transport for Web services.
+SOAP can exchange complete documents or call a remote procedure.
+SOAP can be used for broadcasting a message.
+SOAP is platform- and language-independent.
+SOAP is the XML way of defining what information is sent and how.
+SOAP enables client applications to easily connect to remote services and invoke remote methods.
+
+
+What is Node.js?
+Node.js is an open source server environment
+Node.js is free
+Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+Node.js uses JavaScript on the server
