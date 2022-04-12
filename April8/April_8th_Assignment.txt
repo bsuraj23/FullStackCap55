@@ -1,5 +1,5 @@
-Name: Kaluvai Deepak Reddy
-RollNo:  CAPG48LSRB305
+Name: Nikitha M R
+RollNo:  CAPG48LSRB302
 
 1) Which one is good Inline CSS or External file ?
 A) Inline css is preferable when you need to style specific HTML element. Where as External CSS file preferable when you need to style the entire page.
