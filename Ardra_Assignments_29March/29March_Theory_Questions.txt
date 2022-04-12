@@ -1,0 +1,33 @@
+1.What is IOC?
+Inversion of Control is a principle in software engineering which transfers the control of objects or portions of a program to a framework.
+IOC means letting a framework take control of the execution flow of your program, to do things like create instances of the class, inject dependencies etc
+
+
+2.What is dependency injection?
+A design pattern in which a class requests dependencies from external sources rather than creating them.
+There are three form of Dependency Injection: Constructor Injection, Setter Injection and Interface Injection.
+
+3.What is Autowiring?
+Feature of spring framework in which spring container injects the dependencies automatically.
+
+4.Difference between pojo and bean.
+POJO stands for Plain Old Java Object. It is an ordinary Java object, not bound by any special restriction other than those forced by the Java Language Specification and not requiring any class path. POJOs are used for increasing the readability and re-usability of a program. 
+
+Beans are special type of Pojos. There are some restrictions on POJO to be a bean.
+All JavaBeans are POJOs but not all POJOs are JavaBeans.
+Serializable ie, they should implement Serializable interface. Still, some POJOs who don’t implement a Serializable interface are called POJOs because Serializable is a marker interface and therefore not of many burdens.
+Fields should be private. This is to provide complete control on fields.
+Fields should have getters or setters or both.
+A no-arg constructor should be there in a bean.
+Fields are accessed only by constructor or getter setters.
+
+
+
+5.Difference between jar and war.
+The main difference between JAR and WAR Files is that the JAR files are the files that have Java class files, associated metadata and resources aggregated into a single file to execute a Java application while the WAR files are the files that contain Servlet, JSP, HTML, JavaScript and other files necessary for developing web applications.
+
+
+6.What is Maven and Gradle?
+Maven, or Apache Maven, is an XML-based build tool and project manager. Maven is an Apache open-source project. Its default repository is the Maven Central Repository. Maven projects are primarily defined by Project Object Model (POM) files written in XML. These POM.xml files contain the project’s dependencies, plugins, properties, and configuration data. Maven uses a declarative approach and has a predefined life cycle.
+
+Gradle was build on Maven’s concepts, introduced as Maven’s successor. It was designed with multi-project builds in mind. Gradle’s build script is inherently more versatile and powerful than Maven’s. This is because Gradle is based on a programming language (Groovy), while Maven’s is based on a markup language (XML).
