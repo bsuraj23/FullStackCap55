@@ -1,0 +1,166 @@
+1)if the exception is not in arithmetic exception then how to catch that exception?
+>> Java try block is used to enclose the code that might throw an exception. It must be used within the method.
+If an exception occurs at the particular statement in the try block, the rest of the block code will not execute.
+You can catch different exceptions in different catch blocks. When an exception occurs in try block, the corresponding catch block that handles that particular exception executes. 
+For example if an arithmetic exception occurs in try block then the statements enclosed in catch block for arithmetic exception executes.
+
+2)what languages do u need to learn as a Android developer? 
+Firstly Java was the official language for Android App Development (but now it was replaced by Kotlin) and consequently, it is the most used language as well. 
+Many of the apps in the Play Store are built with Java, and it is also the most supported language by Google. Some other languages are python, html, dart, C++, C
+
+3)what is cloud computing ? 
+>> cloud computing means storing and accessing data and programs over the internet instead of your computer's hard drive
+
+what is cloud from aws? 
+>>Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, 
+such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+
+what is cloud from Microsoft?
+>> Simply put, cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and 
+intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.
+
+4)what is html ,css,js?
+>> HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+>> CSS is used to control presentation, formatting, and layout.
+>> JavaScript is used to control the behavior of different elements.
+
+5)wap on hello world in html
+<html>
+<header><title>Hello World Program</title></header>
+<body>
+Hello world
+</body>
+</html>
+
+6)Diff between java and javascript?
+>>Java is an OOP programming language while JavaScript is an OOP programming script. 
+JavaScript code is written completely in text and need only be interpreted. Java, on the other hand, must be compiled.
+They are also used for different types of projects. Java is used to make applications on devices or browsers, while JavaScript is used primarily on HTML documents and browsers. 
+Different plug-ins are used in order to use Java and JavaScript.
+
+7)what are the info present in header when u hit google.com?
+>> 1. You type maps.google.com into the address bar of your browser.
+2. The browser checks the cache for a DNS record to find the corresponding IP address of maps.google.com.
+3. If the requested URL is not in the cache, ISP’s DNS server 
+initiates a DNS query to find the IP address of the server that hosts maps.google.com.
+4. The browser initiates a TCP connection with the server.
+5. The browser sends an HTTP request to the webserver.
+6. The server handles the request and sends back a response.
+7. The server sends out an HTTP response.
+8. The browser displays the HTML content (for HTML responses, which is the most common).
+
+8)what is cookie?
+>>Cookies are text files with small pieces of data — like a username and password — 
+that are used to identify your computer as you use a computer network.  
+
+write a code to display all the cookies in your browser?
+>>
+<!DOCTYPE HTML>
+<html>
+  
+<head>
+    <title>How to list all cookies for the current page?</title>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+</head>
+  
+<body style="text-align:center;">
+    <h1 style="color: green"> 
+        GeeksforGeeks 
+    </h1>
+    <p id="GFG_UP" style="font-size: 20px; font-weight: bold;"> </p>
+  
+    <button onclick="gfg_Run()"> Click Here </button>
+    <p id="GFG_DOWN" style="color:green;
+        font-size: 26px; font-weight: bold;"> </p>
+  
+    <script>
+    var el_up = document.getElementById("GFG_UP");
+    var el_down = document.getElementById("GFG_DOWN");
+    el_up.innerHTML = "Click on the button to " 
+    + "get the stored cookies.";
+  
+    function getCookies() {
+        var cookies = document.cookie.split(';');
+        var ret = '';
+        for(var i = 1; i <= cookies.length; i++) {
+            ret += i + ' - ' + cookies[i - 1] + "<br>";
+        }
+        return ret;
+    }
+  
+    function gfg_Run() {
+        el_down.innerHTML = getCookies();
+    }
+    </script>
+</body>
+  
+</html>
+
+9) define react?
+>> React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+
+10)define angular?
+>> Angular JS is an open source JavaScript framework that is used to build web applications. It can be freely used, changed and shared by anyone.
+
+11)What is ORM and hibernate?
+>> Object-relational mapping or ORM is the programming technique to map application domain model objects to the relational database tables. 
+Hibernate is a Java-based ORM tool that provides a framework for mapping application domain objects to the relational database tables and vice versa.
+
+12)what are the keywords used for...class to class and class to interface  and interface to interface?
+>> class to use an interface - keyword interface
+class to class - keyword class
+interface to interface - keyword extends 
+
+13)What is the default access modifier for a variable in Java?
+When we don't use any keyword explicitly, Java will set a default access to a given class, method or property. 
+The default access modifier is also called package-private, which means that all members are visible within the same package but aren't accessible from other packages: package com.
+
+14)How many types of file formats are there?
+>> 6 Different Types of Files 
+JPEG (Joint Photographic Experts Group) 
+PNG (Portable Network Graphics) 
+GIF (Graphics Interchange Format) 
+PDF (Portable Document Format) 
+SVG (Scalable Vector Graphics) 
+MP4 (Moving Picture Experts Group)
+
+15)examples for rdbms and non rdbms ?
+>> Some examples of specific systems that use RDBMS include IBM, Oracle, MySQL, Microsoft SQLServer and PostgreSQL.
+non rdbms examples : :MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase:MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase
+
+16)Does python has a support to db2
+>>Db2 does not offer one, but four drivers (clients) for Python
+
+17)Diff between spring framework and spring boot
+
+>> Spring Framework:
+* Spring framework is a java EE framework that is used to build applications.
+*Spring framework helps to create a loosely coupled application.
+*In the Spring framework to test the Spring Project, we need to set up the servers explicitly.
+
+>>Spring Boot
+*Spring Boot framework is mainly used to develop REST API’s
+*Spring Boot helps to create a stand-alone application.
+*Spring Boot offers built-in or embedded servers such as Tomcat and jetty.
+
+18)Diff between  Linux and Windows OS 
+>> Linux 
+Linux is a open source operating system.	
+Linux is free of cost.	While it is costly.
+It’s file name case-sensitive.	
+In linux, monolithic kernel is used.	
+Linux is more efficient in comparison of windows.	
+There is forward slash is used for Separating the directories.	
+Linux provides more security than windows.	
+Linux is widely used in hacking purpose based systems.	
+
+>>Windows OS
+Windows are the not the open source operating system.
+it’s file name is case-insensitive.
+in windows micro kernel is used.
+Windows are less efficient.
+There is back slash is used for Separating the directories.
+It provides less security than linux.
+Windows does not provide much efficiency in hacking.

@@ -1,0 +1,51 @@
+1)Predifined functions in collection
+-->EXISTS, COUNT, LIMIT, FIRST, LAST, PRIOR, NEXT, EXTEND, TRIM, and DELETE
+
+2)Underlying ds for linked list,arraylist
+-->Both ArrayList and LinkedList are two different implementations of the List interface. ArrayList is a resizable-array implementation, 
+whereas LinkedList is a Doubly-linked list implementation of the List interface.
+An ArrayList’s capacity at least as large as the list size, and it grows automatically as more elements are added to it. 
+On the other hand, a LinkedList’s capacity is exactly equal to the list size, and we cannot specify the capacity during the list initialization.
+
+3)Advantages and disadvatages of array list
+advantages:
+>It is not synchronized so it is fast.
+>It works fast when we have to fetch or get the elements fron the list.
+>It maintains insertion order, means any element by default will be added in the end of arraylist.
+>There can be duplicates in the arraylist.
+disadvantages:
+>Never used Arraylist when you have to do lot of insertion and deletion as this will force arraylist to adjust the elements present in the list instead used linkedlist.
+>When you want to add elements in the last or first and the arraylist soze is 0, in this case u can use linkedlist to add specifically on top and bottom of list.
+>You can't maintain uniqueness.
+>Arraylist don't work on primitive values.
+
+4)What are iterators and cursors
+> an iterator allows iteration of a container with no knowledge of the container itself. 
+A cursor, on the other hand, allows iteration of a container as well but has implementation details specific to the container type, so it does keep a reference to the container.
+
+5)What are the 10 owasp?
+#1: Injection flaws
+#2: Broken Authentication
+#3: Cross Site Scripting
+#4: Insecure Direct Object References
+#5: Security misconfiguration
+#6: Sensitive data exposure
+#7: Missing function level access control
+#8: Cross Site Request Forgery (CSRF)
+#9: Using components with known vulnerabilities
+#10: Unvalidated redirects and forwards
+
+6)IndexoutofboundException and arrayIndexOutofboundexception is same?
+>IndexOutOfBoundsException :
+       Thrown to indicate that an index of some sort (such as to an array, to a string, or to a vector) is out of range.
+
+>ArrayIndexOutOfBoundsException: 
+       Thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+java program to read the file and run the file
+
+7)difference b/w comparable and comparator
+>Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price. The Comparator provides multiple sorting sequences. In other words, 
+we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+
+8)can catch be return without try in java?
+>Yes, we can have try without catch block by using finally block

@@ -1,0 +1,34 @@
+15th March
+
+1.Difference between constructor and method?
+>Constructor is used to initialize an object whereas 
+method is used to exhibits functionality of an object.
+
+2.Who gives default constructor?
+>  the compiler will automatically provide a default constructor 
+
+3.What are the other roles of jvm?
+>The JVM has two primary functions: 
+     to allow Java programs to run on any device or operating system, and to manage and optimize program memory.
+
+4.What is the difference between c and java access specifiers?
+> Access Specifiers in C
+public - members are accessible from outside the class.
+private - members cannot be accessed (or viewed) from outside the class.
+protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes.
+
+Access Specifiers in Java
+private (accessible within the class where defined)
+default or package-private (when no access specifier is specified)
+protected (accessible only to classes that subclass your class directly within the current or different package)
+
+5.why string is passed in main method?
+>by passing String arrays , we can pass all the necessary parameters like options/arguments related to the program in the form of String easily
+
+6.what happens if final keyword is applied on variable,class and method?
+>if we declare a class as final, we restrict the other classes to inherit or extend it.
+If we declare method as final, then it cannot be overridden by any subclasses.
+If we initialize a variable with the final keyword, then we cannot modify its value
+
+7.Is java call by reference or call by value?
+>Java always passes arguments by value, not by reference.

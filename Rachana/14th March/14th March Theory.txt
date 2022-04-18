@@ -1,0 +1,26 @@
+14th March
+
+1.What is Debugging?
+> Debugging is the process of detecting and removing of existing and potential errors
+in a software code that can cause it to behave unexpectedly or crash.
+
+2.What are the default packages present in java?
+the default package present in java is java.lang
+
+3.Can we have an else condition without if condition?
+> No we can't have an else condition without a if condition 
+Else statements do not work unless they are associated with an if statement.
+
+4.Other than boolean can we use anything in if condition?
+>if is a Java reserved word The condition must be a boolean expression. 
+It must evaluate to either true or false. 
+If the condition is true, the statement is executed.
+
+5.Why break is imp in switch case?
+>The case statements in a switch statements are simply labels. 
+When you switch on a value, the switch statement essentially does a goto to the label with the matching value. 
+This means that the break is necessary to avoid passing through to the code under the next label.
+
+6.Understand the naming conventions in java
+>Java follows camel-case syntax for naming the class, interface, method, and variable. 
+If the name is combined with two words, the second word will start with uppercase letter always such as actionPerformed(), firstName, ActionEvent, ActionListener, etc.
