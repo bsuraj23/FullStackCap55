@@ -1,0 +1,115 @@
+theoryy
+
+1. Inline css or external file .which one is good?
+>> Inline CSS is considered useful as it reduces the number of files that the browser needs to download before displaying the web page. 
+With an external CSS, the browser first loads an HTML file and then downloads the CSS file. Due to these reasons inline css is given more priority
+
+2.where to use # in css ?
+>>the hash ( # ) signifies an element with a specific id attribute.
+ex: #id  #firstname
+
+3.difference bw html5 and other html versions?
+>> HTML vs HTML5 – Comparison. While both HTML and HTML5 are hypertext markup languages, the main difference between them is that HTML5 is the latest version of HTML and supports more features such as multimedia,
+ new tags and elements as well as new APIs.HTML does not provide native audio and video support.
+
+4.how can you make your page responsive?
+>>
+Set Appropriate Responsive Breakpoints. 
+Start with a Fluid Grid. 
+Take touchscreens into consideration.
+Use Responsive Images and Videos. 
+Define Typography. 
+Use a pre-designed theme or layout to save time.
+Test Responsiveness on Real Devices.
+
+5.what are cookies in backend ?
+>>Cookies are tiny pieces of data that the backend can store in the user's browsers. User tracking, personalization, and most important, authentication, are the most common use cases for cookies. 
+Cookies have a lot of privacy concerns, and have been subject to strict regulation over the years.
+
+6.What is jason?
+>> JSON stands for JavaScript Object Notation
+>>JSON is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and arrays. 
+It is a common data format with diverse uses in electronic data interchange, including that of web applications with servers.
+
+7.understand SOAP ?
+>>SOAP is defined in Wikipedia as an XML based data exchange protocol often used to transfer messages over HTTPS. 
+The SOAP protocol is a key component in Web services, implementing the messaging layer of Web services to provide data access and remote procedure calls (RPC).
+
+8.what is Node ?
+>> Node. js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature. 
+It's used for traditional web sites and back-end API services, but was designed with real-time, push-based architectures in mind.
+
+9.React and angular diffrence ?
+>> Angular is a Javascript framework built using Typescript, while Reactjs is a Javascript library and built using JSX. 
+Angular is mostly used to build complex enterprise-grade apps like single-page apps and progressive web apps, while React is used to build UI components in any app with frequently variable data.
+
+10.Es 5 Es 61
+>>ES5 is an abbreviation of ECMAScript 5 and also known as ECMAScript 2009. The sixth edition of the ECMAScript standard is ES6 or ECMAScript 6. 
+It is also known as ECMAScript 2015. ES6 is a major enhancement in the JavaScript language that allows us to write programs for complex applications.
+
+11.Wat is Rest controller and controller ?
+>>The @Controller is a common annotation which is used to mark a class as Spring MVC Controller
+ while the @RestController is a special controller used in RESTFul web services and the equivalent of @Controller + @ResponseBody
+
+12.Difference btw rest controller and controller!
+>>The @Controller is a common annotation which is used to mark a class as Spring MVC Controller while the @RestController is a special controller used in RESTFul web services and the equivalent of @Controller + @ResponseBody.
+The @RestController is relatively new, added only on Spring 4.0 but @Controller is an old annotation, exists since Spring started supporting annotation, and officially it was added on Spring 2.5 version.
+The @Controller annotation indicates that the class is a “Controller” e.g. a web controller while the @RestController annotation indicates that the class is a controller where @RequestMapping methods assume @ResponseBody semantics by default i.e. servicing REST API.
+The @Controller is a specialization of @Component annotation while @RestController is a specialization of @Controller annotation. It is actually a convenience controller annotated with @Controller and @ResponseBody
+
+13.What is button and button elavation?
+>> The <button> HTML element is an interactive element activated by
+ a user with a mouse, keyboard, finger, voice command, or other assistive technology. Once activated, 
+it then performs a programmable action, such as submitting a form or opening a dialog.
+
+--Button elavation means elavating the button to make it look like clickable.
+
+14.Difference b/w button and button groups:
+>> Button groups allow multiple buttons to be stacked together on a single line. This is useful when you want to place items like alignment buttons together. You can add on optional JavaScript radio and checkbox style behavior with Bootstrap Button Plugin
+“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally.
+
+Buttons are used to add styles for some particular actions to be performed in forms, dialogues. They even support for multiple sizes. Below given are few of the buttons:
+
+.btn-sm	This makes the button size small.
+.btn-xs	This makes the button size extra small.
+.btn-block	This creates block level buttons—those that span the full width of a parent.
+
+15.What is burger button?
+>>Its function is to toggle a menu (sometimes referred to as a hamburger menu) or navigation bar between being collapsed behind the button or displayed on the screen.
+
+16.What is noSQL?
+>>NoSQL databases (aka "not only SQL") are non-tabular databases and store data differently than relational tables. 
+NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph. 
+They provide flexible schemas and scale easily with large amounts of data and high user loads.
+
+17.why use only react and angular?
+
+Advantages of Angular
+>> advantages of utilising Angular:
+
+Clean code development is available.
+Increased Efficiency
+Interface Inspired by Material Design
+Because an angular framework can handle routing, switching from one view to another is simple.
+Angular CLI for Seamless Updates
+
+--advantages of utilising React:
+
+Because of its straightforward design, it is simple to learn.
+The HTML-like syntax enables for templating as well as extensive documentation.
+Developers can spend less time worrying about framework-specific code and more time writing current JavaScript.
+Improve server-side rendering capability, making it a more robust platform for content-focused apps.
+React allows you to migrate between versions.
+Facebook has a feature called “codemod” that automates a lot of the process.
+React skills can be transferred to Native development.
+ReactJS is ideal for managing huge loads with relative ease when combined with ES6/7.
+
+18>What is meta in source code of html
+>> The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. <meta> tags always go inside the <head> element, 
+and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+19.Internationalization ??
+>> Internationalization or i18n is the design and development of a product, application, 
+or document content that enables easy localization for target audiences that vary in culture, region, or language.
+The aim of internationalization is to remove the barriers to localizing or deploying an application internationally. 
+Unicode usage, legacy character encodings, string concatenation, etc. are some of the things which assist in designing an application to ensure successful internationalization.
