@@ -1,0 +1,103 @@
+1.what is difference b/w constructor and fucntion in the class?
+->*Constructor is used to initialize an object whereasmethod is used to exhibits functionality of an object.
+  *Constructors are invoked implicitly whereas methods are invoked explicitly.
+  *Constructor does not return any value where the method may/may not return a value.
+  *In case constructor is not present, a default constructor is provided by java compiler.In the case of a method, no default method is provided.
+  *Constructor should be of the same name as that of class. Method name should not be of the same name as that of class.
+
+2.who gives default constructor?
+->Java compiler automatically creates a default constructor (Constructor with no arguments) 
+in case no constructor is present in the java class. Following are the motive behind a default constructor.
+In case, programmer does not provide any constructor in class definition – JVM provides a 
+default constructor to the class in runtime.
+
+3.what are other responsibilities if jvm?
+->The JVM performs following operation:
+  *Loads code
+  *Verifies code
+  *Executes code
+  *Provides runtime environment
+  JVM provides definitions for the:
+  *Memory area
+  *Class file format
+  *Register set
+  *Garbage-collected heap
+  *Fatal error reporting 
+
+4.Is java call by reference or call by value?
+->There is only call by value in java, not call by reference. If we call a method passing a value, it is known as call by value.
+ The changes being done in the called method, is not affected in the calling method
+
+5.who is providing the extra functions is java?
+->java.lang Provides classes that are fundamental to the design of the Java programming language. The most important classes are Object, 
+which is the root of the class hierarchy, and Class, instances of which represent classes at run time.
+
+6.what happens if final keyword is applied on variable,class and method?
+->Java final keyword is a non-access specifier that is used to restrict a class, variable, and method.
+ If we initialize a variable with the final keyword, then we cannot modify its value.
+ If we declare a method as final, then it cannot be overridden by any subclasses. 
+ And, if we declare a class as final, we restrict the other classes to inherit or extend it.
+
+7.why string is passed in main method?
+->String args[], which is actually an array of java.lang.String type, and it's name is args here. 
+It's not necessary to name it args always, you can name it strArray or whatever you like, but most programmer prefer to name it args, because that's what everyone else do. 
+When we run a Java program from command prompt, we can pass some input to our Java program. 
+Those inputs are stored in this String args array. For example if we modify our program to 
+print content of String args[].
+
+8.why only jvm gives default constructor?
+->Because When it comes to object creation in Java it becomes necessary to understand how does the compiler handles constructor creation in Java. Constructor is a block of code which helps us to 
+initialize the new object in java and gives it a state and behaviour.
+
+9.difference b/w java 8 and java7?
+->*The codename for java 7 is dolphin and the codeman for java 8 is spider
+  *Some of the features of Java 7 are Handling of Multiple exceptions,
+   Updated class-loader architecture, Enhanced type inference, Updated Rowset 1.1 and JDBC 4.1, Enhanced Managed Beans, Automatic resource management in try-statement, Compressed 64-bit pointers, JVM support and so much more
+  *Whereas Some of the features of Java 8 are Lambda Expressions, Interface default and 
+   Static Methods, Unsigned Integer Arithmetic, Concurrent API enhancements, Null Reference Template, New JavaScript Engine, Nashorn, New and improved Stream API, Withdrawal of permanent generation and so much more.
+  *Java 7 was developed by Oracle Corporation on Jan 27, 2010 whereas java 8 was developed by Oracle Corporation on Mar 18, 2014
+  *Main upgrade for java 7 is JVM support for dynamically-typed languages  whereas for java 8
+  *Java 7 is supported on windows XP whereas java 8 is not supported on Windows XP but forced installation can be done
+
+10.when and why collections were added?
+->The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
+Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
+Java Collection means a single unit of objects. 
+Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
+The Collection framework represents a unified architecture for storing and manipulating a group of objects
+
+11.difference b/w collection and collections?
+->Collection	                                           Collections
+*It is an interface.	                                  *It is a utility class.
+*It is used to represent a group of                     *It defines several utility methods that are used to operate on collection.
+individual objects as a single unit.                               
+*The Collection is an interface that                    *It contains only static methods.
+contains a static method since java8. 
+The Interface can also contain abstract 
+and default methods.
+
+
+//function without  parameter and without retunr type
+//function without parameter and with retunr type
+//function with parameter and without retunr type
+//function without parameter and with  retunr type
+
+12.difference betweeen enumerator and iterator?
+->Enumeration and Iterator In Java :
+Enumeration	                                          Iterator
+*Using Enumeration, you can only                 *Using Iterator, you can remove an element of
+traverse the collection. You can’t do            the collection while traversing it.
+any modifications to collection while
+traversing it.	
+*Enumeration is introduced in JDK 1.0	          *Iterator is introduced from JDK 1.2
+*Enumeration is used to traverse the             *Iterator is used to iterate most of the classes in 
+legacy classes like Vector, Stack                the collection framework like ArrayList, HashSet, HashMap, LinkedList etc.
+and HashTable.	
+*Methods : hasMoreElements() and nextElement()	 *Methods : hasNext(), next() and remove()
+*Enumeration is fail-safe in nature.	          *Iterator is fail-fast in nature.
+*Enumeration is not safe and secured 	          *Iterator is safer and secured than Enumeration.
+due to it’s fail-safe nature.
+
+13.->There Cannot be try Block Without Catch Block.
+   if There is a Try Block It compulsory to Have a Catch Block.
+   Finally Block is Optional to have or not.
