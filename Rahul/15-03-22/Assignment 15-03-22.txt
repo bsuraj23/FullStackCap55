@@ -1,0 +1,40 @@
+1.Why only ‘ Strings ’ is accepted in “ public static void main(Strings args[]) ” ?
+Here we are defining a String array to pass arguments at command line. args is the variable name of the String array.
+
+2.Why is there a false in this code….
+Boolean is given as a method type so no matter what parameters we will send it will should return it as boolean type. 
+Return type is given that is the reason why the output shows false.
+
+3.Diff btw C a.s and JAVA a.s
+There is no access modifiers in c
+but there is a.s in java
+
+4.What is the difference Between Constructor and Method ?
+Constructor is used to initialize an object whereas method is used to exhibits functionality of an object.
+Constructors are invoked implicitly whereas methods are invoked explicitly.
+Constructor does not return any value where the method may/may not return a value.
+
+5.Responsibilities of JVM
+Role of JVM :
+•To permit Java programs to run on operating systems and any device.
+•To manage and enhance program memory.
+
+Functions performed by JVM:
+•Verifies code
+•Executes code
+•Provides runtime environment
+•Loads code
+
+6.Who gives Default Constructor ?
+JVM gives the default constructor
+
+7.Why JVM gives Default Constructor
+The Java compiler provides a default constructor if you don't have any constructor in a class. The method is not provided by the compiler in any case. The constructor name must be same as the class name.
+
+8.Does JAVA follow Pass by Value or Pass by Reference ?
+Java uses only pass by value. It creates a copy of references and pass them as value to the methods.
+
+9.What happens when Final keyword is applied on Variable, Class and Method
+If we initialize a variable with the final keyword, then we cannot modify its value.
+When we apply the final keyword to a class, then that class cannot be subclassed.
+When we apply it to a method, then that method cannot be overridden by any subclasses.

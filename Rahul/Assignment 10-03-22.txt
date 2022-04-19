@@ -1,0 +1,35 @@
+1.	Create github account Create repository and Try to push some code
+
+2.	How can you print system variable using command line?
+To print the value of a particular variable, use the command " echo $varname "
+
+3.	Difference between jdk and jre
+JDK(Java Development Kit) is used to develop Java applications. JDK also contains numerous development tools like compilers, debuggers, etc. 
+
+JRE(Java Runtime Environment) is the implementation of JVM(Java Virtual Machine)
+and it is specially designed to execute Java programs.
+
+4.	How you can print environmental variables
+To list all the environment variables, use the command "env"
+
+5.	Get all the commands and handson with all the commands
+I.	Alt + Shift + j to add Javadoc at any place in Java source file.
+II.	Alt+Shift+X, Q to run Ant build file using keyboard shortcuts in Eclipse.
+III.	Ctrl + Shift +F for Autoformatting.
+IV.	Ctrl + T for toggling between supertype and subtype
+V.	CTRL+Shift+G, which searches the workspace for references to the selected method or variable
+VI.	Ctrl+Shift+L to view the listing for all Eclipse keyboard shortcuts.
+VII.	CTRL+SHIFT+P to find closing brace. Place the cursor at the opening brace and use this.
+VIII.	Go to other open editors: Ctrl + E.
+IX.	Hop back and forth through the files you have visited: Alt + ← and Alt + →, respectively.
+X.	Move to one problem (i.e.: error, warning) to the next (or previous) in a file: Ctrl +. For next, and Ctrl +, for the previous problem
+
+6.	What is /n and what is it called and how many more of these are there?
+\n Insert a newline in the text at this point.
+\r Insert a carriage return in the text at this point. 
+\f Insert a formfeed in the text at this point. 
+\' Insert a single quote character in the text at this point.
+
+7.	What are ASCII values and where it is used and why they are used
+ASCII, abbreviation of American Standard Code For Information Interchange, a standard data-transmission code that is used by smaller and less-powerful computers to represent both textual data (letters, numbers, and punctuation marks)
+and noninput-device commands (control characters).

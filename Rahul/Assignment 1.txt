@@ -1,0 +1,32 @@
+a)	What Is Jvm 
+JVM is a virtual machine which executes the program written to the bytecode and run on any computer
+
+b)	What Are The Platforms In  Java
+Java Platform, Standard Edition (Java SE) Java Platform, 
+Enterprise Edition (Java EE) Java Platform, 
+Micro Edition (Java ME)
+
+c)	How Portability Is Solved In Java
+ Whenever the javacode is compiled, the compiler generates a byte code. The Bytecodes that are generated are safe and can be run on any machine that has JVM. Which means that the same bytecode program can run on any computer system that has a Java interpreter. 
+
+d)	Structure of JVM 
+classloader-loads all the required files used to run the code
+a)Bootstrap:loas all class files
+b)Extension:loads all the libraries for JRE
+c)System:loads class from classpath
+Memory allocation-memory is allocated to all the data variable. they are stored in following ways
+*class
+*heap
+*stack
+*PC Register
+*native method stack
+Execution Engine:now the execution process starts. it has two factors
+a)JIT-just in time compiler. compresses the code the reduces the time. makes the program time efficient
+b)garbage collector-deletes the unused objects. process of deallocating memory. important factor of memory management 
+c)interpreter-compiles the code line by line
+native method interface-it is a framework used to provide an interface to communicate with other apps.
+
+e)	Why Local Variable Has To Be Initialized
+As local variables cannot be accessible outside the method or constructor. We shud initialize a localvariable because it wont have a default value , and the compiler wont let us use uninitialized values
+
+

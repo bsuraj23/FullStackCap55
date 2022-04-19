@@ -1,0 +1,218 @@
+1.What is Debugging?
+In computer programming and software development, debugging is the process of finding and resolving bugs within computer programs. To prevent incorrect operation of a software or system, 
+
+2.What are the default packages present in java?
+Java compiler imports java.lang package by default.  It provides the fundamental classes that are necessary to design a basic Java program.
+
+3.Can we have an else condition without if condition?
+Yes, it is valid. The else is an optional part. During the program execution, the statements written inside the if block will only be executed when the condition mentioned is true. Otherwise, if the condition is false, the next consecutive lines after the if block will be executed. 
+
+4.Other than boolean can we use anything in if condition?
+f is a Java reserved word The condition must be a boolean expression. It will evaluate to either true or false.
+
+5.why break is imp in switch case?
+When you switch on a value, the switch statement essentially does a goto to the label with the matching value.
+This means that the break is necessary to avoid passing through to the code under the next label.
+
+6.The naming conventions in java.
+For variables, the Java naming convention is to always start with a lowercase letter and then capitalize the first letter of every subsequent word.
+Variables in Java are not allowed to contain white space, so variables made from compound words are to be written with a lower camel case syntax.
+
+7.Understand diff between WAR,JAR file?
+JAR(Java Archive)
+A JAR file is a file with Java classes, associated metadata,and resources such as text and images aggregated into one file
+
+WAR(Web Application Resource)
+A WAR file is a filethat is used to distribute a collection of JAR files, JSP, Servlet, XML files,
+ static web pages like HTML and other resources that constitute a web  application
+
+8.Is java 100% Object oriented language?
+Java is not a pure object oriented language because it supports Primitive datatype such as int, byte, long?etc, to be used, which are not objects
+
+9.what is agile
+Agile is a all test-driven development, object-oriented design, and software architecture into a single, clean approach for building robust and highly scalable software systems
+
+10.How many version control tools are there?
+GitHub,Git,GitLab,Apache Subversion (SVN),CVS,Mercurial,Monotone,Bitbucket Server,Team Foundation Server (TFS),Bazaar
+
+11.what is scrum call?
+The Scrum team reviews what happened during the sprint to determine what worked, what didn't work, and how they can improve the process during the next sprint.
+
+12.Pattern Programs
+import java.util.Scanner;
+
+public class Star {
+	public void FullStar(int row) {
+		for (int i = 1; i <= row; i++) {
+
+			for (int j = row; j > i; j--) {
+				System.out.print(" ");
+			}
+
+			for (int k = 1; k <= (i * 2) - 1; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+	public void LeftStar(int row) {
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+	public void RightStar(int row) {
+		for (int i = 1; i <= row; i++) {
+			for (int j = row; j > i; j--) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= i; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
+class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row = sc.nextInt();
+		Star star = new Star();
+		star.FullStar(row);
+		star.LeftStar(row);
+		star.RightStar(row);
+
+	}
+}
+
+13.Inheritance
+public class Inheritance {
+	int salary=10000;
+
+}
+class B extends Inheritance{
+	int bonus=5000;
+}
+class Source{
+	public static void main(String[] args) {
+		B b=new B();
+		System.out.println("Salary:"+b.salary);
+		System.out.println("Bonus:"+b.bonus);
+	}
+}
+
+14.Encapsulation
+public class Employee {
+
+	private int id;
+	private String name;
+	private int salary;
+
+
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+}
+
+
+class Test {
+
+	public static void main(String[] args) {
+
+	 Employee e =new Employee();
+
+	 e.setId(350);
+	 e.setName("Rahul");
+	 e.setSalary(70000);
+
+	 System.out.println(e.getId());
+	 System.out.println(e.getName());
+	 System.out.println(e.getSalary());
+}
+}
+
+15.Abstraction
+
+abstract class college1
+{
+	public void collinfo()
+	{
+		System.out.println("wellcome to the college");
+	}
+	public abstract void collfee();
+}
+class student1 extends college1
+{
+
+	@Override
+	public void collfee() {
+		System.out.println("college fee is 5L");
+	}
+
+}
+
+public class abstraction {
+
+	public static void main(String[] args) {
+
+		student1 coll = new student1();
+		coll.collinfo();
+		coll.collfee();
+
+
+	}
+
+}
+
+16.Polymorphism
+public class polymorphism {
+	public void animalSound() {
+		System.out.println("The animal makes a sound");
+	}
+}
+
+class Pig extends polymorphism {
+	public void animalSound() {
+		System.out.println("The Pig Oinks");
+	}
+}
+
+class Dog extends polymorphism {
+	public void animalSound() {
+		System.out.println("The Dog Barks");
+	}
+
+	public static void main(String[] args) {
+		polymorphism myAnimal = new polymorphism();
+		polymorphism myPig = new Pig();
+		polymorphism myDog = new Dog(); 
+		myAnimal.animalSound();
+		myPig.animalSound();
+		myDog.animalSound();
+	}
+
+}
