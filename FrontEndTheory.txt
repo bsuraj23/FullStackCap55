@@ -1,0 +1,192 @@
+9-04-2022
+
+Q) difference between html5 and other html versions?
+
+HTML:-	
+HTML does not provide native audio and video support.
+HTML only supports vector graphics if used in conjunction with different technologies like Flash, VML, or Silverlight.	
+HTML allows inline MathML and SVG in text with restricted use.	
+HTML doesn’t allow users to draw shapes such as circles, triangles, and rectangles.
+HTML only uses browser cache and cookies to store data temporarily. 
+JavaScript and browser interface run in the same thread.	
+Longer document type declaration.	
+Longer character encoding declaration. Uses the ASCII character set.
+Compatible with almost all browsers. 	
+Built based on Standard Generalized Markup Language (SGML).
+
+
+HTML5:-
+HTML5 provides native audio and video support. 
+HTML5 supports SVG (Scalable Vector Graphics), Canvas, and other virtual vector graphics.
+HTML5 allows inline MathML and SVG in text
+HTML5 allows users to draw shapes such as circles, triangles, and rectangles. 
+HTML5 uses web SQL databases, local storage, and application cache for storing data temporarily.
+JavaScript and browser interface run in separate threads.
+Shorter document type declaration. 
+Shorter character encoding declaration. Uses the UTF-8 character set.
+Only compatible with newer browsers, considering there are many new tags and elements which only some browsers support.
+HTML5 has improved parsing rules providing enhanced compatibility. 
+
+
+Q)list the html5 elements ?
+
+<article>		Defines an independent, self-contained content.
+<aside>		Defines a section with additional information related to the content around the aside element.
+<bdi>			Isolates bidirectional text (when a language with right-to-left directionality, such as Arabic or Hebrew, is used in line with left-to-right languages).
+<details>		Contains additional details, that the user can open and view.
+<dialog>		Specifies a dialog box or window.
+<figcaption>	Adds a caption or explanation to the contents of the <figure> tag.
+<figure>		Specifies a self-contained content.
+<footer>		Defines the footer of a web page or a section.
+<header>		Defines a header of a page or a section.
+<main>		Specifies a document’s main content.
+<mark>		Marks a part of the text which has relevance.
+<meter>		Defines a scalar measurement in the known range or graphic representation of a fractional number.
+<nav>			Defines a block of navigation links, either within the current document or to other documents.
+<progress>		Displays the progress of the task (progress bar).
+<rp>			Defines an alternative text, displayed in the browsers, that do not support the <ruby> tag.
+<rt>			Adds annotations at the top and bottom of the text, inserted in the <ruby> tag.
+<ruby>		Defines furigana (also called yomigana or ruby), phonetic tips in Japanese and East Asian languages.
+<section>		Creates standalone sections within a webpage containing logically connected content.
+<summary>		Defines the visible header for the <details> element.
+<time>		Defines a human-readable time on a 24-hour clock or a precise date in the Gregorian calendar.
+<wbr>			Instructs the browser, where in the text a line-break could be added.
+
+Q)why use only react and angular?
+
+Advantages of Angular
+The following are some of the advantages of utilising Angular:
+
+Clean code development is available.
+Increased Efficiency
+Interface Inspired by Material Design
+Because an angular framework can handle routing, switching from one view to another is simple.
+Angular CLI for Seamless Updates
+
+Advantages of React
+The following are some of the advantages of utilising React:
+
+Because of its straightforward design, it is simple to learn.
+The HTML-like syntax enables for templating as well as extensive documentation.
+Developers can spend less time worrying about framework-specific code and more time writing current JavaScript.
+Improve server-side rendering capability, making it a more robust platform for content-focused apps.
+React allows you to migrate between versions.
+Facebook has a feature called “codemod” that automates a lot of the process.
+React skills can be transferred to Native development.
+ReactJS is ideal for managing huge loads with relative ease when combined with ES6/7.
+
+
+Q)what are cookies in backend?
+
+Cookies are tiny pieces of data that the backend can store in the user's browsers. 
+
+User tracking, personalization, and most important, authentication, are the most common use cases for cookies.
+
+Cookies have a lot of privacy concerns, and have been subject to strict regulation over the years.
+
+Q)What is JSON?
+
+JSON stands for JavaScript Object Notation
+
+JSON is a lightweight format for storing and transporting data
+
+JSON is often used when data is sent from a server to a web page
+
+JSON is "self-describing" and easy to understand
+
+JSON Example:-
+
+
+{
+"employees":[
+    {"firstName":"John", "lastName":"Doe"},
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+
+
+Q)What is node?
+
+Node.js is a platform built on Chrome's JavaScript runtime for easily building 
+fast and scalable network applications. Node.js uses an event-driven, non-blocking 
+I/O model that makes it lightweight and efficient, perfect for data-intensive real-time
+applications that run across distributed devices.
+
+
+
+Q)External CSS is the best practice.
+
+The reason is mostly about maintainability - 
+but there are also some performance considerations 
+as well.
+
+
+Q)In addition to resize text and images, it is also common to use media queries in responsive web pages.
+
+With media queries you can define completely different styles for different browser sizes.
+
+Example: resize the browser window to see that the three div elements below will display horizontally on
+ large screens and stacked vertically on small
+ screens:
+
+12-04-2022
+
+Q) What is button and button elavation?
+
+<button>: The Button element. The <button> HTML element is an interactive element activated by
+ a user with a mouse, keyboard, finger, voice command, or other assistive technology. Once activated, 
+it then performs a programmable action, such as submitting a form or opening a dialog.
+
+Button elavation means elavating the button to make it look like clickable.
+
+Q) Difference b/w button and button groups:
+
+Button groups allow multiple buttons to be stacked together on a single line. This is useful when you want to place items like alignment buttons together. You can add on optional JavaScript radio and checkbox style behavior with Bootstrap Button Plugin
+“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally.
+
+Buttons are used to add styles for some particular actions to be performed in forms, dialogues. They even support for multiple sizes. Below given are few of the buttons:
+
+.btn-sm	This makes the button size small.
+.btn-xs	This makes the button size extra small.
+.btn-block	This creates block level buttons—those that span the full width of a parent.
+
+Q) What is burger button?
+The hamburger button, so named for its unintentional resemblance to a hamburger, is a button typically placed in a top corner of a graphical user interface.[1] Its function is to toggle 
+a menu (sometimes referred to as a hamburger menu) or navigation bar between being collapsed behind the button or displayed on the screen. The icon which is associated with this widget, 
+consisting of three horizontal bars, is also known as the collapsed menu icon.
+
+
+
+Q) What is noSQL?
+NoSQL is an approach to database management that can accommodate a wide variety of data models, including key-value, document, columnar and graph formats. 
+A NoSQL database generally means that it is non-relational, distributed, flexible and scalable.
+
+18-04-2022
+
+Q)  What is meta in source code of html?
+
+The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+
+Metadata will not be displayed on the page, but is machine parsable.
+
+Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+Syntax:-
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+2)internationalization in react?  
+
+
+The Internationalization library provides support for formatting and parsing date and number objects using the official Unicode CLDR JSON data. 
+The en-US locale is set as default culture and the USD is set as default currencyCode for all Syncfusion React components.
