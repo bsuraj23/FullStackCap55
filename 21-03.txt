@@ -1,0 +1,240 @@
+Assignment questions 21/03/2022
+
+1. if the exception is not in arithmetic exception then how to catch that exception?
+->Simple by Using Exception or We can Use IOExeption if it Input Output Exception, So that WhatEver that'll be Caught.
+
+2. programs on all sorting and all searching?
+->Searching algorithms :
+Linear search
+Binary search
+Interpolation search
+Sublist search
+Exponential search
+Jump search
+Fibonacci search
+Ubiquitous binary search
+Recursive function for substring search
+
+Sorting Techniques :
+Bubble Sort
+Selection Sort
+Merge Sort
+Insertion Sort
+Quick Sort
+Heap Sort
+
+3. what languages do u need to learn as a Android developer?
+->Java Firstly Java was the official language for Android App Development (but now it was replaced by Kotlin) and consequently, it is the most used language as well
+Kotlin
+C++ 
+C# 
+Python
+HTML, CSS, JavaScript
+Dart.
+
+4 . what is cloud ?
+->"The cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers. 
+Cloud servers are located in data centers all over the world. By using cloud computing, 
+users and companies do not have to manage physical servers themselves or run software applications on their own machines.
+what is cloud from a w s? 
+->Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, 
+owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, 
+storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+what is cloud from Microsoft?
+->The definition for the cloud can seem murky, but essentially, it is a term used to describe a global network of servers, 
+each with a unique function. The cloud is not a physical entity, but instead is a vast network of remote servers 
+around the globe which are hooked together and meant to operate as a single ecosystem.
+The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions to 
+life—to solve today’s challenges and create the future. Build, run, and manage applications across multiple clouds, 
+on-premises, and at the edge, with the tools and frameworks of your choice.
+
+5 . what is html ,css,js?
+->HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+CSS is used to control presentation, formatting, and layout.
+JavaScript is used to control the behavior of different elements.
+
+6 . wap on hello world in html
+-><html>
+   <head>
+     <title>Hello World HTML</title>
+   </head>
+   <body>
+     <h1>Hello World</h1>
+     <h1>ENOCK HARRIS SUHAS F</h1>
+   </body>
+</html>
+
+7. diff btw java and js
+->Java	                                                   JavaScript
+Java is a strongly typed language and  In Java, 	      JavaScript is a weakly typed language and has a more relaxed syntax and rules.
+variables must be declared first to use in the program.
+the type of a variable is checked at compile-time.
+Java is an object-oriented programming language.	      JavaScript is an object-based scripting language.
+Java applications can run in any JVM or browser.	      JavaScript code used to run only in the browser, but now it can run on the server via Node.js.
+Objects of Java are class-based even we can’t 	          JavaScript Objects are prototype-based.
+make any program in java without creating a class.
+Java program has the file extension “.Java” and 	      JavaScript file has the file extension “.js” and it is interpreted 
+translates source code into bytecodes which are           but not compiled, every browser has the Javascript interpreter to execute JS code.
+executed by JVM(Java Virtual Machine).
+Java is a Standalone language.	                        contained within a web page and integrates with its HTML content.
+Java has a thread-based approach to concurrency.	       Javascript has an event-based approach to concurrency.
+Java supports multithreading.	                            Javascript doesn’t support multi-threading.
+
+8. what are the info present in header when u hit google . com
+->gmail,Maps,Images,Other Apps,Sign in And Settings.
+
+9. what is cookie? write a code to display all the cookies in your browser?
+->Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. 
+Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience.
+A cookie is a small piece of information that is persisted between the multiple client requests.
+A cookie has a name, a single value, and optional attributes such as a comment, path and domain qualifiers, a maximum age, and a version number.
+
+Let's see the simple code to get all the cookies.
+Cookie ck[]=request.getCookies();
+for(int i=0;i<ck.length;i++){
+out.print("<br>"+ck[i].getName()+" "+ck[i].getValue());//printing name and value of cookie.
+}
+
+10. how are you getting the information in Google without even login in ?
+->Because It's a Search Engine We can Search Anything Without having a Google Account.
+
+11. If JavaScript can do frontend then why react and angular ?
+->JavaScript is not a FrameWork or Library So We use React or Angular.
+The primary difference between AngularJS and ReactJS lies in the state of its management. AngularJS has data binding bundled in by default, 
+whereas React is generally augmented by Redux to give unidirectional data flow and work with immutable data.
+
+12. Understand What is react and angular ?
+->React
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces. 
+It lets you compose complex UIs from small and isolated pieces of code called “components”.
+
+Angular
+component-based framework for building scalable web applications.
+A collection of well-integrated libraries that cover a wide variety of features, 
+including routing, forms management, client-server communication.
+
+
+13. what is orm and hibernate?
+ORM stands for Object-Relational Mapping (ORM) is a programming technique for converting data between relational databases and object oriented programming languages such as Java, C#, etc.
+An ORM tool simplifies the data creation, data manipulation and data access. It is a programming technique that maps the object to the data stored in the database.
+An ORM system has the following advantages over plain JDBC −
+
+Sr.No.	Advantages
+1	Let’s business code access objects rather than DB tables.
+2	Hides details of SQL queries from OO logic.
+3	Based on JDBC 'under the hood.'
+4	No need to deal with the database implementation.
+5	Entities based on business concepts rather than database structure.
+
+Hibernate->Hibernate is a Java framework that simplifies the development of Java application to interact with the database. 
+It is an open source, lightweight, ORM (Object Relational Mapping) tool. Hibernate implements the specifications of JPA (Java Persistence API) for data persistence.
+
+What is JPA?
+Java Persistence API (JPA) is a Java specification that provides certain functionality and standard to ORM tools. The javax.persistence package contains the JPA classes and interfaces.
+
+14. what are the keywords used for...class to class and class to interface and interface to interface?
+->Class to Class ---EXTENDS
+  class to interface ----IMPLEMENTS
+  interface to interface  ---EXTENDS
+
+15.wap to show grandchild can access child class , child class can access parent class
+
+16. What is the default access for the variables and function define in Java 7
+->Java provides a number of access modifiers to set access levels for classes, variables, methods, and constructors.
+ The four access levels are −
+Visible to the package, the default. No modifiers are needed.
+Visible to the class only (private).
+Visible to the world (public).
+Visible to the package and all subclasses (protected).
+
+Default Access Modifier - No Keyword
+Default access modifier means we do not explicitly declare an access modifier for a class, field, method, etc.
+A variable or method declared without any access control modifier is available to any other class in the same package. 
+The fields in an interface are implicitly public static final and the methods in an interface are by default public.
+
+17 How many types of file format is there ?
+->5 types of image files
+1. Joint photographic experts group (JPEG or JPG)
+2. Graphics interchange format (GIF)
+3. Scalable vector graphics (SVG)
+4. Portable networks graphic (PNG)
+5. Tagged image file format (TIFF or TIF)
+
+5 types of document files
+1. Portable document format (PDF)
+2. Word document (DOC and DOCX)
+3. Hypertext markup language (HTML and HTM)
+4. Microsoft excel spreadsheet file (XLS and XLSX)
+5. Text file (TXT)
+
+5 types of video files
+1. Moving picture experts group layer four (MP4)
+2. Audio video interleave (AVI)
+3. QuickTime Movie file (MOV)
+4. Flash video format (FLV)
+5. Advanced video coding, high definition (AVCHD)
+
+18. Example of rdbms and non rdbms
+->Relational databases
+A relational database, also called Relational Database Management System (RDBMS) or SQL database, stores data in tables and rows also referred to as records. 
+A relational database works by linking information from multiple tables through the use of “keys.” A key is a unique identifier which can be assigned to a row 
+of data contained within a table.
+One significant advantage to using an RDBMS is “referential integrity.”  Referential integrity refers to the accuracy and consistency of data. 
+This data integrity is achieved by using these primary and foreign keys. 
+This SQL statement demonstrates retrieving a result set of how all the sales records for a single employee whose EmployeeId = 1 would be retrieved. 
+SELECT * FROM Employees
+JOIN Sales ON Employees.EmployeeId = SALES.EmployeeId
+WHERE EmployeeId = 1
+
+Non-relational databases
+The non-relational database, or NoSQL database, stores data. However, unlike the relational database, there are no tables, rows, primary keys or foreign keys.  
+Instead, the non-relational database uses a storage model optimized for specific requirements of the type of data being stored.
+Some of the more popular NoSQL databases are MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
+There are four popular non-relational types: document data store, column-oriented database, key-value store and graph database.  
+Often combinations of these types are used for a single application.
+Instead of the Structure Query Language (SQL) used by relational databases, the NoSQL database uses Object-relational-mapping (ORM).  
+The concept of ORM is the ability to write queries using your preferred programming language.  Some of the more popular ORMs are Java, Javascript, .NET and PHP.
+
+19. Does python has a support to db2
+->Db2 and Python drivers
+Db2 does not offer one, but four drivers (clients) for PythonCan Python connect to DB2?
+Before you can run SQL statements to create, update, delete, or retrieve data, you must connect to a database. You can use the ibm_db API to connect to 
+a database through either a cataloged or uncataloged connection.
+
+
+20. Diff Between Spring frame work and spring boot
+->Basis	                        Spring	                                                                Spring Boot
+Where it’s used?	Spring framework is a java EE framework that is used to build applications.	    Spring Boot framework is mainly used to develop REST API’s
+Key feature	       The primary or most important feature of the Spring framework is dependency 	    The main or primary feature of the Spring Boot is Autoconfiguration
+                      injection(Dependency Injection (DI) is a design technique that removes                 ( Simply described, Spring Boot autoconfiguration is a method of automatically configuring 
+                      dependencies from computer code, making the application easier to maintain and test).  a Spring application based on the dependencies found on the classpath.)
+                                                                                                             Autoconfiguration can speed up and simplify development by removing the need to define some
+                                                                                                             beans that are part of the auto-configuration classes.
+Why it’s used	       Its goal is to make Java EE (Enterprise Edition) development easier, 	            Spring Boot provides the RAD(Rapid Application Development) feature to the Spring framework 
+                      allowing developers to be more productive.                                             for faster application development.
+Type of Application 	Spring framework helps to create a loosely coupled application.	                   Spring Boot helps to create a stand-alone application.
+Developmen
+Servers dependency	In the Spring framework to test the Spring Project, we need to set up 	            Spring Boot offers built-in or embedded servers such as Tomcat and jetty.
+                         The servers explicitly.
+
+Deployment descriptor	To run a Spring application a deployment descriptor is required.	                   In Spring Boot there is no need for the Deployment descriptor.
+In-memory database 	Spring framework does not provide support for the in-memory database.	           Spring Boot provides support for the in-memory database such as H2.
+support
+Boilerplate code	Spring framework requires too many lines of code (boilerplate code) 	            You avoid boilerplate code which reduces time and increases productivity.
+                        even for minimal tasks.
+Configurations	        In the Spring framework, you have to build configurations manually.	            In Spring Boot there are default configurations that allow faster bootstrapping.
+Dependencies	        Spring Framework requires a number of dependencies to create a web app.	            Spring Boot, on the other hand, can get an application working with just one dependency. There are several more dependencies required during build time that is added to the final archive by default.
+
+
+21. Diff Between Linux OS and windows OS
+->BASIS FOR COMPARISON	                           lINUX                                 WINDOWS
+Cost                                           Free of cost                            Expensive
+Open source                                      Yes                                       No
+Customizable                                     Yes                                       No
+Security                                      More secure                              Vulnerable to viruses and malware attacks.
+Booting                                   Either primary or logical partition.         Only primary partition.                   
+Separation of the directories using            Forward slash                            Back slash
+File names                                   Case sensitive                             Case insensitive
+File system                             EXT2, EXT3, EXT4, Reisers FS, XFS and JFS       FAT, FAT32, NTFS and ReFS
+Type of kernel used                        Monolithic kernel                            Microkernel
+Efficiency                                 Effective running efficiency                 Lower than Linux
