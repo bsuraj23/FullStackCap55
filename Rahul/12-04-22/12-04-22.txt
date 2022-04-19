@@ -1,0 +1,13 @@
+1.what is button and button elevation?
+Button is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology.
+An elevated button is a label child displayed on a Material widget whose Material. Elevation increases when the button is pressed.
+
+2. Difference b/w button and button groups?
+The difference is that in button, only one button will be present 
+whereas in button group multiple buttons are presented as a group.
+
+3) What is burger button?
+The hamburger button, so named for its unintentional resemblance to a hamburger, is a button typically placed in a top corner of a graphical user interface.
+
+4) What is NoSQL?
+A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
